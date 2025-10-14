@@ -24,13 +24,4 @@
 	  DisplayName : "Pyélonéphrite aiguë"&lt;br /&gt; 
 	  Valeur dans le FTS: "Néphrite tubulo-interstitielle aigüe"&lt;br /&gt; 
   	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-cim-10"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:procedure[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "DDAF004"&lt;br /&gt; 
-	  DisplayName : "Dilatation intraluminale de deux vaisseaux                                 coronaires avec pose d'endoprothèse, par voie artérielle transcutanée"&lt;br /&gt; 
-	  Valeur dans le FTS: "Dilatation intraluminale de 2 vaisseaux coronaires avec pose d'endoprothèse, par voie artérielle transcutanée"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/></svrl:schematron-output>
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/></svrl:schematron-output>
