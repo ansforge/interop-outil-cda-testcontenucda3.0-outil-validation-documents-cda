@@ -10,184 +10,22 @@
 	  DisplayName : "infarctus du myocarde récidivant"&lt;br /&gt; 
 	  Valeur dans le FTS: "Infarctus du myocarde à répétition"&lt;br /&gt; 
   	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-cim-10"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][3]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "MED-504"&lt;br /&gt; 
-	  DisplayName : "Troubles de la déglution justifiant une Gastrostomie"&lt;br /&gt; 
-	  Valeur dans le FTS: "Troubles de la déglution justifiant une gastrostomie"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][4]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "MED-518"&lt;br /&gt; 
-	  DisplayName : "Complications pulmonaires"&lt;br /&gt; 
-	  Valeur dans le FTS: "Complication pulmonaire"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][4]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "MED-511"&lt;br /&gt; 
-	  DisplayName : "Troubles respiratoires justifiant une Ventilation assistée"&lt;br /&gt; 
-	  Valeur dans le FTS: "Troubles respiratoires justifiant une ventilation assistée"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][4]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][4]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "MED-506"&lt;br /&gt; 
-	  DisplayName : "Troubles respiratoires justifiant une Trachéotomie"&lt;br /&gt; 
-	  Valeur dans le FTS: "Troubles respiratoires justifiant une trachéotomie"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][5]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "MED-519"&lt;br /&gt; 
-	  DisplayName : "Complications thromboemboliques"&lt;br /&gt; 
-	  Valeur dans le FTS: "Complication thromboembolique"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][5]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][5]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
 	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
 	  CodeSystem : "2.16.840.1.113883.6.3" &lt;br /&gt; 
 	  CodeFile  : "2.16.840.1.113883.6.3 "&lt;br /&gt; 
 	  CodeSystemName : "CIM-10" &lt;br /&gt; 
 	  Code  : "I80.2"&lt;br /&gt; 
-	  DisplayName : "Thrombose veineuse profonde"&lt;br /&gt; 
+	  DisplayName : "Thrombose veineuse profonde SAI"&lt;br /&gt; 
 	  Valeur dans le FTS: "Phlébite et thrombophlébite d'autres vaisseaux profonds des membres inférieurs"&lt;br /&gt; 
   	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-cim-10"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][6]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "MED-520"&lt;br /&gt; 
-	  DisplayName : "Complications urinaires"&lt;br /&gt; 
-	  Valeur dans le FTS: "Complication urinaire"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][6]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "MED-507"&lt;br /&gt; 
-	  DisplayName : "Troubles urinaires justifiant une Sonde urinaire"&lt;br /&gt; 
-	  Valeur dans le FTS: "Troubles urinaires justifiant une sonde urinaire"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][7]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "MED-521"&lt;br /&gt; 
-	  DisplayName : "Complications digestives"&lt;br /&gt; 
-	  Valeur dans le FTS: "Complication digestive"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][7]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][7]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
 	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
 	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
 	  CodeFile  : " "&lt;br /&gt; 
 	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
 	  Code  : "MED-508"&lt;br /&gt; 
-	  DisplayName : "Toubles digestifs justifiant une Sonde gastrique"&lt;br /&gt; 
+	  DisplayName : "Troubles digestifs justifiant une sonde gastrique"&lt;br /&gt; 
 	  Valeur dans le FTS: "Toubles digestifs justifiant une sonde gastrique"&lt;br /&gt; 
   	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "EAQM004"&lt;br /&gt; 
-	  DisplayName : "Echo-Doppler cervical"&lt;br /&gt; 
-	  Valeur dans le FTS: "Échographie-doppler transcrânienne des vaisseaux intracrâniens, sans épreuve pharmacodynamique"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][3]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "EAQM002"&lt;br /&gt; 
-	  DisplayName : "DTC"&lt;br /&gt; 
-	  Valeur dans le FTS: "Monitorage de la circulation artérielle intracrânienne par doppler pulsé transcrânien"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][4]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "ACQN001"&lt;br /&gt; 
-	  DisplayName : "ARM Cervicale"&lt;br /&gt; 
-	  Valeur dans le FTS: "Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][5]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "EBQH006"&lt;br /&gt; 
-	  DisplayName : "Angiographie cervicale"&lt;br /&gt; 
-	  Valeur dans le FTS: "Scanographie des vaisseaux cervicaux [Angioscanner cervical]"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][6]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "DEQP003"&lt;br /&gt; 
-	  DisplayName : "ECG"&lt;br /&gt; 
-	  Valeur dans le FTS: "Électrocardiographie sur au moins 12 dérivations"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][7]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "DEQP004"&lt;br /&gt; 
-	  DisplayName : "Scope"&lt;br /&gt; 
-	  Valeur dans le FTS: "Surveillance continue de l'électrocardiogramme par oscilloscopie et/ou télésurveillance, par 24 heures"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][8]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "DEQP005"&lt;br /&gt; 
-	  DisplayName : "Holter"&lt;br /&gt; 
-	  Valeur dans le FTS: "Électrocardiographie sur au moins 2 dérivations, avec enregistrement continu pendant au moins 24 heures"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][9]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "DZQM006"&lt;br /&gt; 
-	  DisplayName : "Echographie Transthoracique"&lt;br /&gt; 
-	  Valeur dans le FTS: "Échographie-doppler transthoracique du coeur et des vaisseaux intrathoraciques"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][10]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.215.300.1" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "CCAM" &lt;br /&gt; 
-	  Code  : "DZQJ001"&lt;br /&gt; 
-	  DisplayName : "Echographie Transoesophagienne"&lt;br /&gt; 
-	  Valeur dans le FTS: "Échographie-doppler du coeur et des vaisseaux intrathoraciques, par voie oesophagienne [Échocardiographie-doppler transoesophagienne]"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/terminologie-ccam"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][7]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][5]/*:procedure[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
-	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
-	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "MED-512"&lt;br /&gt; 
-	  DisplayName : "Pose Valve / Dérivation externe"&lt;br /&gt; 
-	  Valeur dans le FTS: "Pose d'une valve / d'une dérivation externe"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/></svrl:schematron-output>
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/></svrl:schematron-output>
