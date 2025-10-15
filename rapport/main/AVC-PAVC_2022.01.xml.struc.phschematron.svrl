@@ -1,54 +1,578 @@
 <?xml version="1.0" encoding="UTF-8"?><svrl:schematron-output xmlns:cda="urn:hl7-org:v3" xmlns:fhir="http://hl7.org/fhir" xmlns:hl7="urn:hl7-org:v3" xmlns:iso="http://purl.oclc.org/dsdl/schematron" xmlns:lab="urn:oid:1.3.6.1.4.1.19376.1.3.2" xmlns:pharm="urn:ihe:pharm" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:saxon="http://saxon.sf.net/" xmlns:schold="http://www.ascc.net/xml/schematron" xmlns:sdtc="urn:hl7-org:sdtc" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" xmlns:svs="urn:ihe:iti:svs:2008" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="" title="Verification sémantique"><!--   
 		   
 		   
-		 --><svrl:ns-prefix-in-attribute-values prefix="hl7" uri="urn:hl7-org:v3"/><svrl:ns-prefix-in-attribute-values prefix="cda" uri="urn:hl7-org:v3"/><svrl:ns-prefix-in-attribute-values prefix="xsi" uri="http://www.w3.org/2001/XMLSchema-instance"/><svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/><svrl:ns-prefix-in-attribute-values prefix="lab" uri="urn:oid:1.3.6.1.4.1.19376.1.3.2"/><svrl:ns-prefix-in-attribute-values prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/><svrl:ns-prefix-in-attribute-values prefix="pharm" uri="urn:ihe:pharm"/><svrl:ns-prefix-in-attribute-values prefix="sdtc" uri="urn:hl7-org:sdtc"/><svrl:ns-prefix-in-attribute-values prefix="fhir" uri="http://hl7.org/fhir"/><svrl:ns-prefix-in-attribute-values prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/><svrl:ns-prefix-in-attribute-values prefix="skos" uri="http://www.w3.org/2004/02/skos/core#"/><svrl:ns-prefix-in-attribute-values prefix="svs" uri="urn:ihe:iti:svs:2008"/><svrl:active-pattern document="file:/D:/a/interop-outil-cda-testcontenucda3.0-outil-validation-documents-cda/interop-outil-cda-testcontenucda3.0-outil-validation-documents-cda/validateCDA/../testContenuCDA/ExemplesCDA/AVC-PAVC_2022.01.xml" name="Verification sémantique"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+		 --><svrl:ns-prefix-in-attribute-values prefix="hl7" uri="urn:hl7-org:v3"/><svrl:ns-prefix-in-attribute-values prefix="cda" uri="urn:hl7-org:v3"/><svrl:ns-prefix-in-attribute-values prefix="xsi" uri="http://www.w3.org/2001/XMLSchema-instance"/><svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/><svrl:ns-prefix-in-attribute-values prefix="lab" uri="urn:oid:1.3.6.1.4.1.19376.1.3.2"/><svrl:ns-prefix-in-attribute-values prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/><svrl:ns-prefix-in-attribute-values prefix="pharm" uri="urn:ihe:pharm"/><svrl:ns-prefix-in-attribute-values prefix="sdtc" uri="urn:hl7-org:sdtc"/><svrl:ns-prefix-in-attribute-values prefix="fhir" uri="http://hl7.org/fhir"/><svrl:ns-prefix-in-attribute-values prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/><svrl:ns-prefix-in-attribute-values prefix="skos" uri="http://www.w3.org/2004/02/skos/core#"/><svrl:ns-prefix-in-attribute-values prefix="svs" uri="urn:ihe:iti:svs:2008"/><svrl:active-pattern document="file:/D:/a/interop-outil-cda-testcontenucda3.0-outil-validation-documents-cda/interop-outil-cda-testcontenucda3.0-outil-validation-documents-cda/validateCDA/../testContenuCDA/ExemplesCDA/AVC-PAVC_2022.01.xml" name="Verification sémantique"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:act[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-325"  &lt;br /&gt; 
+	  DisplayName : "Risque de récidive"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:act[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][9]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-1157"  &lt;br /&gt; 
+	  DisplayName : "Hématologique"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:act[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][11]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-320"  &lt;br /&gt; 
+	  DisplayName : "Affection longue durée (ALD)"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:act[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][12]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-321"  &lt;br /&gt; 
+	  DisplayName : "Surhandicap"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:act[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][13]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-322"  &lt;br /&gt; 
+	  DisplayName : "Plurihandicap"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:act[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][14]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-323"  &lt;br /&gt; 
+	  DisplayName : "Polyhandicap"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:act[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][15]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-324"  &lt;br /&gt; 
+	  DisplayName : "Polypathologies"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-329"  &lt;br /&gt; 
+	  DisplayName : "Spasticité gênante"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
 	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
 	  CodeSystem : "2.16.840.1.113883.5.4" &lt;br /&gt; 
 	  CodeSystemName : "HL7:ActCode" &lt;br /&gt; 
 	  Code  : "SEV"  &lt;br /&gt; 
 	  DisplayName : "Severity"&lt;br /&gt; 
 	  system (SMT): "https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode"	  &lt;br /&gt; 
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][12]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][5]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
 	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
 	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "GEN-149"&lt;br /&gt; 
+	  Code  : "MED-330"  &lt;br /&gt; 
+	  DisplayName : "Négligence visuospatiale"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][6]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-331"  &lt;br /&gt; 
+	  DisplayName : "HLH - QLH"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][7]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-332"  &lt;br /&gt; 
+	  DisplayName : "Trouble de la déglutition"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][8]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-333"  &lt;br /&gt; 
+	  DisplayName : "Trouble de l'élimination urinaire"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][9]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-334"  &lt;br /&gt; 
+	  DisplayName : "Trouble de l'élimination fécale"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][10]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-335"  &lt;br /&gt; 
+	  DisplayName : "Trouble de la sexualité"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][4]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-148"  &lt;br /&gt; 
+	  DisplayName : "Marcher seul à l'exterieur (transports)"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][6]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-144"  &lt;br /&gt; 
+	  DisplayName : "Risque de chute"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][10]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-147"  &lt;br /&gt; 
+	  DisplayName : "Gérer seul ses traitements"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][11]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-145"  &lt;br /&gt; 
+	  DisplayName : "Incontinence"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][12]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-149"  &lt;br /&gt; 
 	  DisplayName : "Communiquer : proches"&lt;br /&gt; 
-	  Valeur dans le FTS: "Communiquer : proches"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][4]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][13]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-150"  &lt;br /&gt; 
+	  DisplayName : "Extérieur (appel secours, courses…)"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][14]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-146"  &lt;br /&gt; 
+	  DisplayName : "Gérer ses comptes et ses affaires personnelles"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][3]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][15]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-151"  &lt;br /&gt; 
+	  DisplayName : "Le patient bénéficie-t-il d'une aide humaine ?"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][4]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-337"  &lt;br /&gt; 
+	  DisplayName : "Syndrome dysexécutif"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][4]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-338"  &lt;br /&gt; 
+	  DisplayName : "Détérioration intellectuelle"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][4]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
 	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
 	  CodeSystem : "2.16.840.1.113883.5.4" &lt;br /&gt; 
 	  CodeSystemName : "HL7:ActCode" &lt;br /&gt; 
 	  Code  : "SEV"  &lt;br /&gt; 
 	  DisplayName : "Severity"&lt;br /&gt; 
 	  system (SMT): "https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode"	  &lt;br /&gt; 
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][3]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
 	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
 	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "GEN-119"&lt;br /&gt; 
+	  Code  : "MED-326"  &lt;br /&gt; 
+	  DisplayName : "Bilan initial étiologique"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-327"  &lt;br /&gt; 
+	  DisplayName : "Ce qui a été prévu ultérieurement a-t-il été fait?"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][3]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-319"  &lt;br /&gt; 
+	  DisplayName : "Besoin d’un bilan complémentaire"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][3]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-118"  &lt;br /&gt; 
+	  DisplayName : "Fait"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][3]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-119"  &lt;br /&gt; 
 	  DisplayName : "A faire / A refaire"&lt;br /&gt; 
-	  Valeur dans le FTS: "A faire/ A refaire"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][18]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][4]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
 	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
 	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "GEN-119"&lt;br /&gt; 
+	  Code  : "MED-012"  &lt;br /&gt; 
+	  DisplayName : "Avis spécialisé"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][5]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-012"  &lt;br /&gt; 
+	  DisplayName : "Avis spécialisé"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][6]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-012"  &lt;br /&gt; 
+	  DisplayName : "Avis spécialisé"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][7]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-012"  &lt;br /&gt; 
+	  DisplayName : "Avis spécialisé"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][8]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-012"  &lt;br /&gt; 
+	  DisplayName : "Avis spécialisé"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][9]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-317"  &lt;br /&gt; 
+	  DisplayName : "Besoin d'un soutien psychotérapeutique"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][10]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-317"  &lt;br /&gt; 
+	  DisplayName : "Besoin d'un soutien psychotérapeutique"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][11]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-120"  &lt;br /&gt; 
+	  DisplayName : "Mesures de protection juridique"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][11]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-121"  &lt;br /&gt; 
+	  DisplayName : "A envisager"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][12]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-124"  &lt;br /&gt; 
+	  DisplayName : "Mesures de protection / Reprise professionnelle"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][12]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-125"  &lt;br /&gt; 
+	  DisplayName : "Reprise à envisager. Démarches faites."&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][13]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-127"  &lt;br /&gt; 
+	  DisplayName : "Mesures de protection / Conduite automobile"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][13]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-128"  &lt;br /&gt; 
+	  DisplayName : "Conduite formellement contre-indiquée"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][14]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-127"  &lt;br /&gt; 
+	  DisplayName : "Mesures de protection / Conduite automobile"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][14]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-129"  &lt;br /&gt; 
+	  DisplayName : "Conduite possible sans permis spécial"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][15]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-127"  &lt;br /&gt; 
+	  DisplayName : "Mesures de protection / Conduite automobile"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][15]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-130"  &lt;br /&gt; 
+	  DisplayName : "Les démarches ont-elles été faites ? (Commission médicale)"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][16]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-131"  &lt;br /&gt; 
+	  DisplayName : "Lieu de vie"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][17]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-132"  &lt;br /&gt; 
+	  DisplayName : "Mode de vie"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][18]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-142"  &lt;br /&gt; 
+	  DisplayName : "Diagnostic autonomie de l'habitat"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][18]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-118"  &lt;br /&gt; 
+	  DisplayName : "Fait"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][18]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-119"  &lt;br /&gt; 
 	  DisplayName : "A faire / A refaire"&lt;br /&gt; 
-	  Valeur dans le FTS: "A faire/ A refaire"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][20]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][19]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
 	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
-	  CodeFile  : " "&lt;br /&gt; 
 	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
-	  Code  : "GEN-137"&lt;br /&gt; 
+	  Code  : "GEN-136"  &lt;br /&gt; 
+	  DisplayName : "Dossier MDPH en cours, adapté"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][20]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-137"  &lt;br /&gt; 
 	  DisplayName : "Dossier à mettre en œuvre ou à réadapter"&lt;br /&gt; 
-	  Valeur dans le FTS: "Dossier à mettre en œuvre / à réadapter"&lt;br /&gt; 
-  	  system (SMT) : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	         
-	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/></svrl:schematron-output>
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][20]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-138"  &lt;br /&gt; 
+	  DisplayName : "Allocation personnalisée d’autonomie (APA)"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][21]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-137"  &lt;br /&gt; 
+	  DisplayName : "Dossier à mettre en œuvre / à réadapter"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][21]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-139"  &lt;br /&gt; 
+	  DisplayName : "Prestation de compensation du handicap (PCH)"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][22]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-137"  &lt;br /&gt; 
+	  DisplayName : "Dossier à mettre en œuvre / à réadapter"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][22]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-140"  &lt;br /&gt; 
+	  DisplayName : "Allocation aux adultes handicapés (AAH)"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][23]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-137"  &lt;br /&gt; 
+	  DisplayName : "Dossier à mettre en œuvre / à réadapter"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][23]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-141"  &lt;br /&gt; 
+	  DisplayName : "Allocation de solidarité aux personnes âgées (ASPA) /Allocation supplémentaire d'invalidité (ASI)"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][5]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][24]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-143"  &lt;br /&gt; 
+	  DisplayName : "Souhait et projet de vie de la personne"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-158"  &lt;br /&gt; 
+	  DisplayName : "Soins de réadaptation"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-345"  &lt;br /&gt; 
+	  DisplayName : "Appareillage"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][3]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-527"  &lt;br /&gt; 
+	  DisplayName : "Soins ou traitements nocturnes"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][4]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-528"  &lt;br /&gt; 
+	  DisplayName : "Ventilation"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][5]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-529"  &lt;br /&gt; 
+	  DisplayName : "Contrainte alimentaire"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][6]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-318"  &lt;br /&gt; 
+	  DisplayName : "Association de soutien"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][7]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-530"  &lt;br /&gt; 
+	  DisplayName : "Traitement médical préventif de récidive"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][8]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-531"  &lt;br /&gt; 
+	  DisplayName : "Traitement médical préventif de complication"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][9]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "ORG-163"  &lt;br /&gt; 
+	  DisplayName : "Consultation de spécialité"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][11]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-161"  &lt;br /&gt; 
+	  DisplayName : "Prévoir"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][11]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "ORG-165"  &lt;br /&gt; 
+	  DisplayName : "Séjour de répit"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][12]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-161"  &lt;br /&gt; 
+	  DisplayName : "Prévoir"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][13]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-161"  &lt;br /&gt; 
+	  DisplayName : "Prévoir"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][14]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-161"  &lt;br /&gt; 
+	  DisplayName : "Prévoir"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][15]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-161"  &lt;br /&gt; 
+	  DisplayName : "Prévoir"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][6]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][16]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "GEN-161"  &lt;br /&gt; 
+	  DisplayName : "Prévoir"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][7]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-346"  &lt;br /&gt; 
+	  DisplayName : "Perte d'autonomie"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][7]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-339"  &lt;br /&gt; 
+	  DisplayName : "GIR-1"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][7]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="error" test="not(($system !=&#34;&#34;) and not(doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))))"><svrl:text>
+	  -Validation  sémantique : Code non trouvé &lt;br /&gt; 
+	  CodeSystem : "1.2.250.1.213.1.1.4.322" &lt;br /&gt; 
+	  CodeSystemName : "TerminologieCISIS" &lt;br /&gt; 
+	  Code  : "MED-347"  &lt;br /&gt; 
+	  DisplayName : "Réalisation effective d'activités"&lt;br /&gt; 
+	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
+	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/></svrl:schematron-output>
