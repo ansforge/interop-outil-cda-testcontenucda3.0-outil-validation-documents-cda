@@ -44,7 +44,7 @@
 	  DisplayName : "Sévérité"&lt;br /&gt; 
 	  system (SMT): "https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode"	  &lt;br /&gt; 
 	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:value[@xsi:type='CD' or  @xsi:type='CE']"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][2]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][1]/*:act[namespace-uri()='urn:hl7-org:v3'][1]/*:entryRelationship[namespace-uri()='urn:hl7-org:v3'][2]/*:observation[namespace-uri()='urn:hl7-org:v3'][1]/*:value[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
+	  -Validation  sémantique : libellé incorrect  &lt;br /&gt; 
 	  CodeSystem : "2.16.840.1.113883.6.3" &lt;br /&gt; 
 	  CodeFile  : "2.16.840.1.113883.6.3 "&lt;br /&gt; 
 	  CodeSystemName : "CIM10FRPMSI" &lt;br /&gt; 
@@ -151,7 +151,7 @@
 	  DisplayName : "Autre acte"&lt;br /&gt; 
 	  system (SMT): "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"	  &lt;br /&gt; 
 	 </svrl:text></svrl:failed-assert><svrl:fired-rule context="//hl7:code"/><svrl:fired-rule context="//hl7:code"/><svrl:failed-assert location="/*:ClinicalDocument[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][1]/*:structuredBody[namespace-uri()='urn:hl7-org:v3'][1]/*:component[namespace-uri()='urn:hl7-org:v3'][16]/*:section[namespace-uri()='urn:hl7-org:v3'][1]/*:entry[namespace-uri()='urn:hl7-org:v3'][7]/*:encounter[namespace-uri()='urn:hl7-org:v3'][1]/*:code[namespace-uri()='urn:hl7-org:v3'][1]" role="warning" test="not(($system !=&#34;&#34;) and (doc-available(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))) and (doc(concat(&#34;https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=&#34;,$system,&#34;&amp;code=&#34;,$theCode,&#34;&amp;_format=xml&#34;))//fhir:parameter/fhir:name[@value=&#34;display&#34;]/../fhir:valueString/@value != $thenNameCode))"><svrl:text>
-	  -Validation  sémantique : libellé incorrecte  &lt;br /&gt; 
+	  -Validation  sémantique : libellé incorrect  &lt;br /&gt; 
 	  CodeSystem : "2.16.840.1.113883.5.4" &lt;br /&gt; 
 	  CodeFile  : " "&lt;br /&gt; 
 	  CodeSystemName : "HL7_ActCode" &lt;br /&gt; 
