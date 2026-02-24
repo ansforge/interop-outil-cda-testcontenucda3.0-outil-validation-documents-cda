@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#"
-         xmlns:core="http://open-services.net/ns/core#"
-         xmlns:dcat="http://www.w3.org/ns/dcat#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:icd="http://id.who.int/icd/schema/"
-         xmlns:j.0="http://topbraid.org/swa#"
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" xmlns:core="http://open-services.net/ns/core#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:icd="http://id.who.int/icd/schema/" xmlns:j.0="http://topbraid.org/swa#"
          xmlns:j.1="http://teamwork.topbraidlive.org/ontologyprojects#"
          xmlns:metadata="http://topbraid.org/metadata#"
          xmlns:ns="https://data.esante.gouv.fr/profile/ns#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:schema="https://schema.org/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="https://schema.org/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-         xmlns:teamwork="http://topbraid.org/teamwork#"
-         xmlns:terms="http://purl.org/dc/terms/"
-         xmlns:voaf="http://purl.org/vocommons/voaf#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+         xmlns:teamwork="http://topbraid.org/teamwork#" xmlns:terms="http://purl.org/dc/terms/"
+         xmlns:voaf="http://purl.org/vocommons/voaf#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+         
+         
          
          
          <rdf:Description><skos:notation>DLU</skos:notation></rdf:Description>
@@ -116,6 +112,7 @@
          <rdf:Description><skos:notation>GEN-092.01.24</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.01.25</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.01.26</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>GEN-092.01.27</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.02.01</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.02.02</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.03.01</skos:notation></rdf:Description>
@@ -164,6 +161,7 @@
          <rdf:Description><skos:notation>GEN-092.06.08</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.06.09</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.06.10</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>GEN-092.06.11</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.07.01</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.07.02</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-092.08.01</skos:notation></rdf:Description>
@@ -339,7 +337,6 @@
          <rdf:Description><skos:notation>GEN-332</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-333</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-334</skos:notation></rdf:Description>
-         <rdf:Description><skos:notation>GEN-335</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-336</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-337</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-338</skos:notation></rdf:Description>
@@ -420,6 +417,12 @@
          <rdf:Description><skos:notation>GEN-413</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-414</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>GEN-415</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>GEN-416</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>GEN-417</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>GEN-418</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>GEN-419</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>GEN-420</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>GEN-421</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-001</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-002</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-003</skos:notation></rdf:Description>
@@ -496,7 +499,6 @@
          <rdf:Description><skos:notation>MED-103</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-104</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-105</skos:notation></rdf:Description>
-         <rdf:Description><skos:notation>MED-107</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-110</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-111</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-116</skos:notation></rdf:Description>
@@ -1394,6 +1396,9 @@
          <rdf:Description><skos:notation>MED-1334</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-1335</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-1336</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>MED-1337</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>MED-1338</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>MED-1339</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>ORG-001</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>ORG-002</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>ORG-003</skos:notation></rdf:Description>
@@ -1592,5 +1597,4 @@
          <rdf:Description><skos:notation>PAT-063</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>PAT-064</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>PAT-065</skos:notation></rdf:Description>
-
 </rdf:RDF>
