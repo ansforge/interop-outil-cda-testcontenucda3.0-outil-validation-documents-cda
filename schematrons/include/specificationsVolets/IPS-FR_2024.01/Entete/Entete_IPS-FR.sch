@@ -25,7 +25,7 @@
         
         <!-- Verifier l'élément participant pour le médecin traitant et l'établissement de santé de préférence [DLU]  -->
         
-        <assert test="not(cda:participant[@typeCode ='INF']) or (cda:participant[@typeCode ='INF']/cda:functionCode[(@code='ES-PREF' or  @code='PCP' ) and (@displayName= 'Etablissement de santé de préférence' or @displayName='Médecin Traitant') and (@codeSystem='1.2.250.1.213.1.1.4.2.280' or @codeSystem='2.16.840.1.113883.5.88')])"> 
+        <assert test="not(cda:participant[@typeCode ='INF']) or (cda:participant[@typeCode ='INF']/cda:functionCode[(@code='ES-PREF' or  @code='PCP' ) and (@displayName= 'Etablissement de santé de préférence' or @displayName='Médecin traitant') and (@codeSystem='1.2.250.1.213.1.1.4.2.280' or @codeSystem='2.16.840.1.113883.5.88')])"> 
             [Entete_IPS-FR]  :
             - Un participant pour le médecin traitant doit être présent maximum une fois [0..1]
             avec @typeCode='INF' et functionCode@code='PCP',

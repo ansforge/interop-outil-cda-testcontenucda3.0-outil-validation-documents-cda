@@ -10,7 +10,7 @@
 @echo off
 if "%1"=="" goto USAGE
 set schema=%2
-if "%2"=="" set schema=CI-SIS_StructurationCommuneCDAr2
+if "%2"=="" set schema=ASIP-STRUCT-MIN-StrucMin
 ::echo.
 ::echo Selection de l'arbre ClinicalDocument dans %1.xml
 ::@echo on
@@ -26,7 +26,7 @@ echo.
 echo Verification du fichier %1.xml
 @echo on
 ::java -cp saxon9he.jar net.sf.saxon.Transform -s:tmp\%1.xml -xsl:..\%schema%.xsl -o:..\rapports\%1_verif.xml
-java -cp saxon9he.jar net.sf.saxon.Transform -s:..\..\ExemplesCDA\%1.xml -xsl:..\%schema%.xsl -o:..\rapports\%1_verif.xml
+java -cp saxon9he.jar net.sf.saxon.Transform -s:..\..\ExemplesCDA\%1.xml -xsl:..\profils\structurationMinimale\%schema%.xsl -o:..\rapports\%1_verif.xml
 @echo off
 echo.
 echo Rapport de Verification : ..\rapports\%1_verif.xml
@@ -37,7 +37,7 @@ echo.
 echo USAGE: %0 fichier_a_verifier_sans_extension schematron_sans_extension
 echo.
 echo le fichier a verifier doit exister avec l'extension xml dans le repertoire ..\.. 
-echo le schematron (par defaut CI-SIS_StructurationCommuneCDAr2.xsl) 
+echo le schematron (par defaut ASIP-STRUCT-MIN-StrucMin.xsl) 
 echo doit etre sous la forme xslt2 dans le repertoire .. ;
 echo le rapport de verification est produit dans le repertoire ..\rapports
 echo sous le nom fichier_a_verifier_verif.xml

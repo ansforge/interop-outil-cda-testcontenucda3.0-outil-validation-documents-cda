@@ -657,7 +657,7 @@
               <id root="AADC9C14-F1CA-4177-B2C8-A5178D5B3CA0"/>
               <code code="DRUG" displayName="Médicament" 
                 codeSystem="2.16.840.1.113883.5.4"  codeSystemName="HL7_ActCode"/>
-              <text><reference value="#med-001"/></text>
+              <text><reference value="#med-001-posologie"/></text>
               <statusCode code="completed"/>
               <!-- [0..1] Durée du traitement -->
               <effectiveTime xsi:type="IVL_TS">
@@ -924,7 +924,7 @@
               <id root="AADC9C14-F1CA-4177-B2C8-A5178D5B3CA0"/>
               <code code="DRUG" codeSystem="2.16.840.1.113883.5.4" displayName="Médicament"
                 codeSystemName="HL7_ActCode"/>
-              <text><reference value="#med-002"/></text>
+              <text><reference value="#med-002-posologie"/></text>
               <statusCode code="completed"/>
               <!-- [0..1] Durée du traitement -->
               <effectiveTime xsi:type="IVL_TS">

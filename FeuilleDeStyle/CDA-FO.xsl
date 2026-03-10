@@ -1546,8 +1546,7 @@
                                             select="concat('iframeId', '_', generate-id(.))"/>
                                     </xsl:variable>
                                     <div id="{$frameID}">
-                                        <iframe name="{$renderID}" id="{$renderID}" width="100%"
-                                            height="600" title="{$renderAltText}">
+                                        <iframe name="{$renderID}" id="{$renderID}" title="{$renderAltText}">
                                             <xsl:if
                                                 test="$renderElement/@mediaType != 'application/pdf' or $limit-pdf = 'no'">
                                                 <xsl:attribute name="sandbox"/>
@@ -1555,6 +1554,7 @@
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="$source"/>
                                             </xsl:attribute>
+                                            <xsl:comment>iframe</xsl:comment>
                                         </iframe>
                                     </div>
                                 </xsl:otherwise>
@@ -1604,8 +1604,7 @@
                                 <xsl:value-of select="concat('iframeId', '_', generate-id(.))"/>
                             </xsl:variable>
                             <div id="{$frameID}" class="iframe-container">
-                                <iframe name="{$renderID}" id="{$renderID}" width="2000"
-                                    height="600" title="{$renderAltText}">
+                                <iframe name="{$renderID}" id="{$renderID}" title="{$renderAltText}">
                                     <xsl:if
                                         test="$renderElement/@mediaType != 'application/pdf' or $limit-pdf = 'yes'">
                                         <xsl:attribute name="sandbox"/>
@@ -1615,6 +1614,7 @@
                                             select="translate(normalize-space(concat('data:', $renderElement/@mediaType, ';base64,', $renderElement/text())), ' ', '')"
                                         />
                                     </xsl:attribute>
+                                    <xsl:comment>iframe</xsl:comment>
                                 </iframe>
                             </div>
                         </xsl:otherwise>
