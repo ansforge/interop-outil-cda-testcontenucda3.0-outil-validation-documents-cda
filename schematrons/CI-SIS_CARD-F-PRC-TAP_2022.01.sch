@@ -38,8 +38,8 @@
     <include href="include/specificationsVolets/CARD-F-PRC-TAP_2022.01/Entete/Entete_CARD-F-PRC-TAP.sch"/>
     
     <!--Entrées spécifiques au volet-->
-    <include href="include/specificationsVolets/CARD-F-PRC-TAP_2022.01/entrees/E_AllergiesAndHypersensibilites_CARD-F-PRC-TAP.sch"/>
-    <include href="include/specificationsVolets/CARD-F-PRC-TAP_2022.01/entrees/E_DM_CARD-F-PRC-TAP.sch"/>
+    <include href="include/specificationsVolets/CARD-F-PRC-TAP_2022.01/Entrees/E_AllergiesAndHypersensibilites_CARD-F-PRC-TAP.sch"/>
+    <include href="include/specificationsVolets/CARD-F-PRC-TAP_2022.01/Entrees/E_DM_CARD-F-PRC-TAP.sch"/>
     
     <!--JDVs spécifiques au volet-->
     <include href="include/jeuxDeValeurs/CARD-F-PRC-TAP_2022.01/JDV_UFCV_MotImpl_CARD-F-PRC-TAP.sch"/>
