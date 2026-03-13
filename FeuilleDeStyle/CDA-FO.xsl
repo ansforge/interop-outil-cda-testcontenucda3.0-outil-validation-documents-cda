@@ -1288,7 +1288,7 @@
                         </xsl:text>
                     </script>
                         <xsl:comment> Javascript for Table of Contents menu </xsl:comment>
-                        <script type="text/²">
+                        <script type="text/javascript">
                             sfHover = function () {
                                 var sfEls = document.getElementById("nav").getElementsByTagName("li");
                                 for (i in sfEls) {

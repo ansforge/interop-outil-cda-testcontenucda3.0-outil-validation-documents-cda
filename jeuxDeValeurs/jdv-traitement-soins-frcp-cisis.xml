@@ -6,14 +6,14 @@
              effectiveDate="2021-04-14T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.596"
              name="JdvTraitementSoinsFrcpCisis"
-             revisionDate="2026-02-20T14:21:03+01:00"
+             revisionDate="2026-03-11T14:49:02+01:00"
              title="JDV Traitement Soins Frcp CISIS"
-             version="2026-01-22T00:00:00+01:00">
+             version="2026-03-02T00:00:00+01:00">
       <ConceptList>
-         <Concept code="C79.5"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  dateValid="20260122000000"
-                  displayName="Tumeur maligne secondaire des os et de la moelle osseuse"/>
+         <Concept code="ORG-225"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260302000000"
+                  displayName="RCP Métastase osseuse"/>
          <Concept code="410240006"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20260122000000"
@@ -38,18 +38,18 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20210414000000"
                   displayName="Oncogériatrie"/>
-         <Concept code="C16832"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
-                  dateValid="20210414000000"
+         <Concept code="394593009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260302000000"
                   displayName="oncologie médicale"/>
          <Concept code="702596005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20260122000000"
                   displayName="procédure de préservation de la fertilité"/>
-         <Concept code="C7201"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
-                  dateValid="20210414000000"
-                  displayName="tumeur rare"/>
+         <Concept code="ORG-226"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260302000000"
+                  displayName="RCP Cancers rares"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

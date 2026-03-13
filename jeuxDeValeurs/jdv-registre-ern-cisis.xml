@@ -6,9 +6,9 @@
              effectiveDate="2024-08-05T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.799"
              name="JdvRegistreErnCisis"
-             revisionDate="2026-02-20T14:21:02+01:00"
+             revisionDate="2026-03-11T14:49:00+01:00"
              title="JDV Registre Ern CISIS"
-             version="2026-01-08T00:00:00+01:00">
+             version="2026-03-02T00:00:00+01:00">
       <ConceptList>
          <Concept code="GEN-320"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -105,11 +105,15 @@
          <Concept code="GEN-373"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20250221000000"
-                  displayName="Le patient a signé son consentement à la transmission des données au registre Endo-ERN EuRREB"/>
+                  displayName="Le patient a signé son consentement à la transmission des données au registre ERN Endo-ERN EuRREB"/>
          <Concept code="GEN-416"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20260108000000"
-                  displayName="Le patient a signé un consentement à la transmission de ses données au registre EuRREB"/>
+                  displayName="Le patient a signé son consentement à la transmission des données au registre ENR EuRREB"/>
+         <Concept code="GEN-422"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260302000000"
+                  displayName="Le patient a signé son consentement à la transmission des données au registre ERN GloBE-Reg"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

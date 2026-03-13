@@ -6,7 +6,7 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="2.16.840.1.113883.1.11.19563"
              name="PersonalRelationshipRoleType"
-             revisionDate="2026-02-20T14:21:01+01:00"
+             revisionDate="2026-03-11T14:48:59+01:00"
              title="PersonalRelationshipRoleType"
              version="2024-07-18T00:00:00+01:00">
       <ConceptList>
@@ -337,7 +337,7 @@
          <Concept code="RESPRSN"
                   codeSystem="2.16.840.1.113883.5.111"
                   dateValid="20100101000000"
-                  displayName="Responsable légal non membre de la famille"/>
+                  displayName="Responsable légal"/>
          <Concept code="ROOM"
                   codeSystem="2.16.840.1.113883.5.111"
                   dateValid="20100101000000"

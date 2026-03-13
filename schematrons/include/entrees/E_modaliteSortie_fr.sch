@@ -6,6 +6,7 @@
     Historique : 
    05/07/2023 : ANS :  Création
    12/01/2024 : MAJ du schematron
+   13/03/2026 : Suppression de la référence à l'entrée FR-Simple-Observation pour pouvoir autoriser le moodcode="INT" pour les sorties prévisionnelles.
     
 -->
 
@@ -14,17 +15,9 @@
     <rule context='*[cda:templateId/@root="1.2.250.1.213.1.1.3.48.7"]'>
         
         <assert
-            test="self::cda:observation[@classCode='OBS' and @moodCode='EVN']">
-            [E_modaliteSortie_fr.sch] Erreur de conformité CI-SIS : Dans l'entrée FR-Modalite-sortie, les attributs @classCode, @moodCode de l'élément observation sont fixés resectivement aux valeurs 'OBS', 'EVN'</assert>
-       
-        <!-- Test des templateId pour l'entrée "FR-Modalite-sortie" -->
-        <assert test="cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13'">
-            [E_modaliteSortie_fr.sch] Erreur de conformité CI-SIS : Dans l'entrée FR-Modalite-sortie, il doit y avoir le templateId  (’1.3.6.1.4.1.19376.1.5.3.1.4.13’)
-        </assert>
-        
-        <assert test="cda:templateId/@root='1.2.250.1.213.1.1.3.48'">
-            [E_modaliteSortie_fr.sch] Erreur de conformité CI-SIS : Dans l'entrée FR-Modalite-sortie, il doit y avoir le templateId  (’1.2.250.1.213.1.1.3.48’)
-        </assert>
+            test="self::cda:observation[@classCode='OBS' and (@moodCode='EVN' or @mooCode='INT')]">
+            [E_modaliteSortie_fr.sch] Erreur de conformité CI-SIS : Dans l'entrée FR-Modalite-sortie, l'attribut @classCode de l'élément observation est fixé à la valeurs 'OBS' et l'attribut @moodCode fixé à 'EVN' ou 'INT'</assert>
+
         
         <!-- Test présence et format de l'élément 'id' -->
         <assert test='count(cda:id)=1'>

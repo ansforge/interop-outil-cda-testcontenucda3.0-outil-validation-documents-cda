@@ -16,7 +16,7 @@ if "%1"=="" goto USAGE
 ::set schema=%2
 
 if "%3"=="" (
-	set schema_int_min=IHE_XDS-SD
+::	set schema_int_min=IHE_XDS-SD
 	set schema_int_body=IHE_PCC
 	set schema_fr_min=CI-SIS_StructurationMinimale
 	set schema_fr_body=ModelesDeContenuCDA
@@ -27,7 +27,7 @@ if "%3"=="int_min" (
 	goto VERIFICATION "profils/IHE_XDS-SD"
 )
 if "%3"=="int_all" (
-	set schema_int_min=IHE_XDS-SD
+::	set schema_int_min=IHE_XDS-SD
 	set schema_int_body="IHE_PCC"
 	
 )
