@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<valueSets xmlns="urn:hl7-org:v3" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:local="http://art-decor.org/functions">
-   <valueSet xmlns="" displayName="JDV_J07_XdsTypeCode_CISIS" effectiveDate="2013-01-23T00:00:00" id="1.2.250.1.213.1.1.5.471" name="JDV_J07_XdsTypeCode_CISIS.tabs" statusCode="final" versionLabel="20250425000000" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
+<valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+   <valueSet xmlns="" displayName="JDV_J07_XdsTypeCode_CISIS" effectiveDate="2025-10-29T12:00:00+01:00" id="1.2.250.1.213.1.1.5.471" name="JDV_J07_XdsTypeCode_CISIS" statusCode="final" versionLabel="2013-01-23T00:00:00+01:00" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
       <sourceCodeSystem id="1.2.250.1.213.1.1.4.12" identifierName="TRE_A05_TypeDocComplementaire" canonicalUri="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriR4="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriR4B="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriR5="urn:oid:1.2.250.1.213.1.1.4.12"/>
       <sourceCodeSystem id="2.16.840.1.113883.6.1" identifierName="Logical Observation Identifier Names and Codes" canonicalUri="http://loinc.org" canonicalUriDSTU2="http://loinc.org" canonicalUriSTU3="http://loinc.org" canonicalUriR4="http://loinc.org" canonicalUriR4B="http://loinc.org" canonicalUriR5="http://loinc.org" hl7v2table0396="LN"/>
       <sourceCodeSystem id="ASTM" identifierName="TRE_A12_NomenclatureASTM" canonicalUri="urn:oid:ASTM" canonicalUriDSTU2="urn:oid:ASTM" canonicalUriSTU3="urn:oid:ASTM" canonicalUriR4="urn:oid:ASTM" canonicalUriR4B="urn:oid:ASTM" canonicalUriR5="urn:oid:ASTM"/>
@@ -70,6 +70,7 @@
          <concept code="83836-7" codeSystem="2.16.840.1.113883.6.1" displayName="Schéma dentaire" level="0" type="L"/>
          <concept code="83869-8" codeSystem="2.16.840.1.113883.6.1" displayName="Plan personnalisé de prévention" level="0" type="L"/>
          <concept code="83901-9" codeSystem="2.16.840.1.113883.6.1" displayName="Bilan psychologique" level="0" type="L"/>
+         <concept code="83963-9" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse environnementale" level="0" type="L"/>
          <concept code="83981-1" codeSystem="2.16.840.1.113883.6.1" displayName="Lettre de liaison à la sortie d'une structure sociale ou médico-sociale" level="0" type="L"/>
          <concept code="85208-7" codeSystem="2.16.840.1.113883.6.1" displayName="CR de télémédecine" level="0" type="L"/>
          <concept code="86531-1" codeSystem="2.16.840.1.113883.6.1" displayName="Attestation de sortie" level="0" type="L"/>
@@ -87,6 +88,8 @@
          <concept code="78489-2" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse Enfant en Maternité" level="0" type="L"/>
          <concept code="89233-1" codeSystem="2.16.840.1.113883.6.1" displayName="CR de grossesse" level="0" type="L"/>
          <concept code="101881-1" codeSystem="2.16.840.1.113883.6.1" displayName="Carte d'implant" level="0" type="L"/>
+         <concept code="97694-4" codeSystem="2.16.840.1.113883.6.1" displayName="Note d'évaluation en médecine maternelle et fœtale" level="0" type="L"/>
+         <concept code="100967-9" codeSystem="2.16.840.1.113883.6.1" displayName="Rythme cardiaque fœtal" level="0" type="L"/>
          <concept code="ATTEST-ASS-COMPL" codeSystem="1.2.250.1.213.1.1.4.12" displayName="Attestation assurance complémentaire" level="0" type="L"/>
          <concept code="ATTEST-RESID" codeSystem="1.2.250.1.213.1.1.4.12" displayName="Attestation de résidence" level="0" type="L"/>
          <concept code="ATTEST-HEBGT" codeSystem="1.2.250.1.213.1.1.4.12" displayName="Attestation d'hébergement" level="0" type="L"/>
