@@ -6,7 +6,7 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.193"
              name="JdvExamenHematologieAunvCisis"
-             revisionDate="2026-03-11T14:49:01+01:00"
+             revisionDate="2026-04-20T15:02:47+01:00"
              title="JDV Examen Hematologie Aunv CISIS"
              version="2023-08-03T00:00:00+01:00">
       <ConceptList>
@@ -25,15 +25,15 @@
          <Concept code="30428-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230803000000"
-                  displayName="Volume globulaire moyen [Volume d'entité] Érythrocytes ; Numérique"/>
+                  displayName="Observation [Volume moyen de l'entité] Érythrocytes ; Numérique"/>
          <Concept code="28540-3"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230803000000"
-                  displayName="Concentration corpusculaire moyenne en hémoglobine [Masse/Volume] Érythrocytes ; Numérique"/>
+                  displayName="Hémoglobine [Masse/Volume de l'entité] Érythrocytes ; Numérique"/>
          <Concept code="28539-5"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230803000000"
-                  displayName="Teneur corpusculaire moyenne en hémoglobine [Masse d'entité] Érythrocytes ; Numérique"/>
+                  displayName="Hémoglobine [Masse d'entité] Érythrocytes ; Numérique"/>
          <Concept code="777-3"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20100101000000"
@@ -45,23 +45,23 @@
          <Concept code="26511-6"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230803000000"
-                  displayName="Polynucléaires neutrophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"/>
+                  displayName="Polynucléaires neutrophiles/leucocytes [Fraction de nombres] Sang ; Numérique"/>
          <Concept code="26450-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230803000000"
-                  displayName="Polynucléaires éosinophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"/>
+                  displayName="Polynucléaires éosinophiles/leucocytes [Fraction de nombres] Sang ; Numérique"/>
          <Concept code="30180-4"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230803000000"
-                  displayName="Polynucléaires basophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"/>
+                  displayName="Polynucléaires basophiles/leucocytes [Fraction de nombres] Sang ; Numérique"/>
          <Concept code="26478-8"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230803000000"
-                  displayName="Lymphocytes totaux/100 leucocytes [Fraction de nombres] Sang ; Numérique"/>
+                  displayName="Lymphocytes totaux/leucocytes [Fraction de nombres] Sang ; Numérique"/>
          <Concept code="26485-3"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230803000000"
-                  displayName="Monocytes/100 leucocytes [Fraction de nombres] Sang ; Numérique"/>
+                  displayName="Monocytes/leucocytes [Fraction de nombres] Sang ; Numérique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

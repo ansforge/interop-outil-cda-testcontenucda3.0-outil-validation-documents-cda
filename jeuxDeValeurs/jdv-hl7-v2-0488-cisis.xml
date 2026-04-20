@@ -6,7 +6,7 @@
              effectiveDate="2025-03-19T00:00:00+01:00"
              id="2.16.840.1.113883.21.328"
              name="Hl7VSSpecimenCollectionMethod"
-             revisionDate="2026-03-11T14:49:01+01:00"
+             revisionDate="2026-04-20T15:02:48+01:00"
              title="hl7VS-specimenCollectionMethod"
              version="2025-03-19T00:00:00+01:00">
       <ConceptList>

@@ -6,9 +6,9 @@
              effectiveDate="2022-11-14T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.688"
              name="JdvModificateurTopographiqueCisis"
-             revisionDate="2026-03-11T14:49:00+01:00"
+             revisionDate="2026-04-20T15:02:46+01:00"
              title="JDV Modificateur Topographique CISIS"
-             version="2022-11-14T00:00:00+01:00">
+             version="2026-03-30T00:00:00+01:00">
       <ConceptList>
          <Concept code="24028007"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -194,6 +194,34 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
                   displayName="marginal(e)"/>
+         <Concept code="7970006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260330000000"
+                  displayName="allogreffe"/>
+         <Concept code="15879007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260330000000"
+                  displayName="autogreffe"/>
+         <Concept code="67650000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260330000000"
+                  displayName="hétérogreffe"/>
+         <Concept code="16404004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260330000000"
+                  displayName="induit(e)"/>
+         <Concept code="67194007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260330000000"
+                  displayName="isogreffe"/>
+         <Concept code="18769003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260330000000"
+                  displayName="juxtaposé(e)"/>
+         <Concept code="5054005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260330000000"
+                  displayName="spontané(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

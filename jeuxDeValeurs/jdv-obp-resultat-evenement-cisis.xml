@@ -6,7 +6,7 @@
              effectiveDate="2023-06-21T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.724"
              name="JdvObpResultatEvenementCisis"
-             revisionDate="2026-03-11T14:49:00+01:00"
+             revisionDate="2026-04-20T15:02:47+01:00"
              title="JDV Obp Resultat Evenement CISIS"
              version="2023-08-28T00:00:00+01:00">
       <ConceptList>
@@ -25,11 +25,11 @@
          <Concept code="3156-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230621000000"
-                  displayName="Volume de liquique amniotique"/>
+                  displayName="Volume du prélèvement [Volume] Liquide amniotique ; Numérique"/>
          <Concept code="38386-9"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230621000000"
-                  displayName="Couleur du liquide amniotique"/>
+                  displayName="Observation [Couleur] Liquide amniotique ; Résultat nominal"/>
          <Concept code="56829-5"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20230621000000"

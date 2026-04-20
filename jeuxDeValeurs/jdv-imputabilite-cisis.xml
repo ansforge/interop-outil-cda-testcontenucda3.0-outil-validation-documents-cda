@@ -6,7 +6,7 @@
              effectiveDate="2024-05-22T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.786"
              name="JdvImputabiliteCisis"
-             revisionDate="2026-03-11T14:49:00+01:00"
+             revisionDate="2026-04-20T15:02:46+01:00"
              title="JDV Imputabilite CISIS"
              version="2024-05-22T00:00:00+01:00">
       <ConceptList>
@@ -25,7 +25,7 @@
          <Concept code="373068000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240522000000"
-                  displayName="non déterminé(e)"/>
+                  displayName="indéterminé(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

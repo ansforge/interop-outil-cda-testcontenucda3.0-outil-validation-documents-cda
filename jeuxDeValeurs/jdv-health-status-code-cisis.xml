@@ -6,7 +6,7 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.4.2.283.1"
              name="JdvHealthStatusCodeCisis"
-             revisionDate="2026-03-11T14:49:01+01:00"
+             revisionDate="2026-04-20T15:02:47+01:00"
              title="JDV Health Status Code CISIS"
              version="2025-07-18T00:00:00+01:00">
       <ConceptList>
@@ -33,7 +33,7 @@
          <Concept code="419099009"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250718000000"
-                  displayName="mort(e)"/>
+                  displayName="décédé"/>
          <Concept code="21134002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221130000000"

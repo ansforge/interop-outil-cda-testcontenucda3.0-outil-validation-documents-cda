@@ -6,13 +6,13 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.64"
              name="JdvLieuDeVieCisis"
-             revisionDate="2026-03-11T14:49:01+01:00"
+             revisionDate="2026-04-20T15:02:48+01:00"
              title="JDV Lieu De Vie CISIS"
-             version="2024-10-10T00:00:00+01:00">
+             version="2026-03-28T00:00:00+01:00">
       <ConceptList>
          <Concept code="500"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateValid="20231114000000"
+                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  dateValid="20260328000000"
                   displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>
          <Concept code="264362003"
                   codeSystem="2.16.840.1.113883.6.96"
