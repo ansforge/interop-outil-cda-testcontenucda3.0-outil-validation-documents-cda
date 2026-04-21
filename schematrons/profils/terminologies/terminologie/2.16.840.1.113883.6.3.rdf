@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:atih-cim10="http://data.esante.gouv.fr/atih-cim10#"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
-         xmlns:dct="http://purl.org/dc/terms/"
          xmlns:edg="http://edg.topbraid.solutions/model/"
          xmlns:j.0="http://topbraid.org/swa#"
          xmlns:metadata="http://topbraid.org/metadata#"
@@ -11,6 +10,7 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:teamwork="http://topbraid.org/teamwork#"
+         xmlns:terms="http://purl.org/dc/terms/"
          xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xml:base="http://data.esante.gouv.fr/atih/cim10">
@@ -49,9 +49,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>H95.9</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M83.19</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>S27.5</skos:notation>
@@ -100,9 +97,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F20.08</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M83.18</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>B33.0</skos:notation>
@@ -1305,9 +1299,6 @@
       <skos:notation>M76.65</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.10</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M41</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -1446,9 +1437,6 @@
       <skos:notation>M75.2</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.12</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>U07.7</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -1483,9 +1471,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M22.95</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M83.11</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M75.1</skos:notation>
@@ -1584,9 +1569,6 @@
       <skos:notation>M22.93</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.15</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>B46</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -1594,9 +1576,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>L11</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M83.13</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>U07.8</skos:notation>
@@ -1639,9 +1618,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>B33.4</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M83.14</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F19.26</skos:notation>
@@ -1707,9 +1683,6 @@
       <skos:notation>B44</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.17</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>C77</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -1768,9 +1741,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>B43</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M83.16</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>B33.2</skos:notation>
@@ -5823,6 +5793,9 @@
       <skos:notation>D51.1</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>S37.818</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>Q10.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -6295,6 +6268,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>O42.1</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>S37.810</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>O29.4</skos:notation>
@@ -7455,6 +7431,9 @@
       <skos:notation>S27.41</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>S37.808</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>X30</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -7993,6 +7972,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>I89.8</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>S37.800</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>C92.1</skos:notation>
@@ -8706,9 +8688,6 @@
       <skos:notation>M94.16</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M11.92</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>C18.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -8746,9 +8725,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Z11.0</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M11.93</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M94.15</skos:notation>
@@ -8809,9 +8785,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M24.16</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M11.94</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M94.14</skos:notation>
@@ -8880,9 +8853,6 @@
       <skos:notation>M76.21</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M11.95</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M81.93</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -8914,9 +8884,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M05.85</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M11.96</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>E11.3</skos:notation>
@@ -8956,9 +8923,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M05.86</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M11.97</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>E11.2</skos:notation>
@@ -9015,9 +8979,6 @@
       <skos:notation>M24.12</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M11.98</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M41.80</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -9055,9 +9016,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>E72.3</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M11.99</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M05.88</skos:notation>
@@ -10083,9 +10041,6 @@
       <skos:notation>M70.66</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M11.90</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>V42.4</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -10174,9 +10129,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M65.48</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M11.91</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M70.68</skos:notation>
@@ -10605,9 +10557,6 @@
       <skos:notation>M24.02</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M40-M438</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>B46.8</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -10692,9 +10641,6 @@
       <skos:notation>M24.01</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M40-M439</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M11.85</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -10750,9 +10696,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>V78.4</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M40-M436</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M93.88</skos:notation>
@@ -10825,9 +10768,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>V78.5</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M40-M437</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M93.89</skos:notation>
@@ -13032,9 +12972,6 @@
       <skos:notation>M18.11</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.07</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>U83.1+1</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -13101,9 +13038,6 @@
       <skos:notation>Z83.7</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.06</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>S28.1</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -13143,9 +13077,6 @@
       <skos:notation>S04.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.09</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>P27.9</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -13177,9 +13108,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M23.91</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M83.08</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M87.98</skos:notation>
@@ -14613,9 +14541,6 @@
       <skos:notation>X47.2</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.00</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>L42</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -14769,9 +14694,6 @@
       <skos:notation>A26.7</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.02</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>A51.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -14820,13 +14742,7 @@
       <skos:notation>M76.58</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.03</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>T13.9</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M83.01</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>K14</skos:notation>
@@ -14964,9 +14880,6 @@
       <skos:notation>T50.4</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M83.05</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M06.39</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -15049,9 +14962,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>X47.0</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M83.04</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>B79</skos:notation>
@@ -19023,9 +18933,6 @@
       <skos:notation>S37.71</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M40-M434</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>S29.7</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -19098,9 +19005,6 @@
       <skos:notation>F06.30</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M40-M435</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>B18.2</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -19155,9 +19059,6 @@
       <skos:notation>D11.9</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M40-M432</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>F23.91</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -19207,9 +19108,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>D84.0</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M40-M433</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>S05.9</skos:notation>
@@ -19323,16 +19221,10 @@
       <skos:notation>M62.95</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M40-M430</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>D35.9</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>S05.7</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M40-M431</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M22.38</skos:notation>
@@ -22680,9 +22572,6 @@
       <skos:notation>S18</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M75.00</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>F31.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -22717,9 +22606,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>A84.0</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M75.01</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>S17</skos:notation>
@@ -22914,9 +22800,6 @@
       <skos:notation>R00.8</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M75.07</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>R48.2</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -23004,9 +22887,6 @@
       <skos:notation>F31.8</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M75.08</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M80.87</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -23080,9 +22960,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F79.1</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M75.09</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>R00</skos:notation>
@@ -23226,9 +23103,6 @@
       <skos:notation>F18.8</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M75.02</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M77.2</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -23310,9 +23184,6 @@
       <skos:notation>G06</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M75.03</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M79.97</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -23386,9 +23257,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F80.9</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M75.04</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>R61.1</skos:notation>
@@ -23472,9 +23340,6 @@
       <skos:notation>M86.50</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M75.05</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M11.08</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -23506,9 +23371,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M65.2</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M75.06</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M41.11</skos:notation>
@@ -30135,9 +29997,6 @@
       <skos:notation>M20.47</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M13.91</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>Y71.2</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -30172,9 +30031,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Y58.5</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.90</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F19</skos:notation>
@@ -30273,13 +30129,7 @@
       <skos:notation>G43</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M13.93</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>F10</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.92</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>S95.2</skos:notation>
@@ -30381,9 +30231,6 @@
       <skos:notation>S73</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M13.95</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>D56.8</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -30436,9 +30283,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M20.45</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.94</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>G47</skos:notation>
@@ -30498,9 +30342,6 @@
       <skos:notation>S83.6</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M13.97</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>F23.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -30558,9 +30399,6 @@
       <skos:notation>F13</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M13.96</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>F10.70</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -30601,9 +30439,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>R44</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.99</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F10.73</skos:notation>
@@ -30676,9 +30511,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F41.00</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.98</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>G44</skos:notation>
@@ -39441,9 +39273,6 @@
       <skos:notation>M15.38</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M50-M543</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>Y07.0</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -39516,9 +39345,6 @@
       <skos:notation>M21.54</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M50-M542</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>Y07.1</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -39582,9 +39408,6 @@
       <skos:notation>A69.2</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M50-M545</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>Z89.8</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -39631,9 +39454,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Z90.5</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M50-M544</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Y07.3</skos:notation>
@@ -39816,9 +39636,6 @@
       <skos:notation>P83.6</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M50-M541</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>H25.0</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -39877,9 +39694,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>T93.0</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M50-M540</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>H25.1</skos:notation>
@@ -40074,9 +39888,6 @@
       <skos:notation>H50.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M50-M547</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>G54.6</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -40105,9 +39916,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>K40.9</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M50-M546</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M03.67</skos:notation>
@@ -40146,9 +39954,6 @@
       <skos:notation>K64.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M50-M549</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>Z89.4</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -40183,9 +39988,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Z65.8</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M50-M548</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>H25.9</skos:notation>
@@ -41976,9 +41778,6 @@
       <skos:notation>N81.5</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M45-M499</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>L27.8</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -42084,9 +41883,6 @@
       <skos:notation>L03.9</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M45-M497</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>B85-B89</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -42130,9 +41926,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>H06.2</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M45-M498</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M77.80</skos:notation>
@@ -42402,9 +42195,6 @@
       <skos:notation>M95.80</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M45-M491</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>H31.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -42460,9 +42250,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M96.29</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M45-M492</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M25.04</skos:notation>
@@ -42579,9 +42366,6 @@
       <skos:notation>F02.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M45-M490</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>Z52.2</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -42675,9 +42459,6 @@
       <skos:notation>M12.81</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M45-M495</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>P61.1</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -42717,9 +42498,6 @@
       <skos:notation>N81.8</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M45-M496</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>P61.0</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -42745,9 +42523,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M25.09</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M45-M493</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>L64.0</skos:notation>
@@ -42826,9 +42601,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>P36.5</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M45-M494</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Z28</skos:notation>
@@ -43746,9 +43518,6 @@
       <skos:notation>Q68.1</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M13.09</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>A15.9</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -43822,9 +43591,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>A39.5</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.08</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Q68.0</skos:notation>
@@ -45345,9 +45111,6 @@
       <skos:notation>M17.95</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M13.01</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>K06.0</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -45385,9 +45148,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Z88.0</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.00</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M54.41</skos:notation>
@@ -45432,9 +45192,6 @@
       <skos:notation>F14.75</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M13.03</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M54.42</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -45472,9 +45229,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M54.43</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.02</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M17.92</skos:notation>
@@ -45523,9 +45277,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M54.44</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.05</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M65.81</skos:notation>
@@ -45588,9 +45339,6 @@
       <skos:notation>Y06.0</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>M13.04</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
       <skos:notation>M54.45</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -45640,9 +45388,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>K93.82</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.07</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F20.82</skos:notation>
@@ -45706,9 +45451,6 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M54.47</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>M13.06</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F20.81</skos:notation>
