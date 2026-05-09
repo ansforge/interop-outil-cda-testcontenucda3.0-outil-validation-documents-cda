@@ -135,7 +135,12 @@ function read_registry(section) {
 		  WScript.Echo(config_wanted[j] + " " + rks[i] + ": "
 					   + config.Item(config_wanted[j]));
 		}
-	  } catch(e) {}
+	  } catch(e) {
+	  // Registry key may not exist; log in debug mode
+	  if (debug) {
+		WScript.Echo("Registry read failed: " + e.message);
+	  }
+	}
 	}
   }
 }
