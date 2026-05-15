@@ -43,6 +43,7 @@ jobs:
       
       - name: Validation FHIR
         run: |
+           npm --registry https://packages.simplifier.net install ans.fr.terminologies@1.9.2
            cd validateCDA
            wget -q https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar
            mkdir package
