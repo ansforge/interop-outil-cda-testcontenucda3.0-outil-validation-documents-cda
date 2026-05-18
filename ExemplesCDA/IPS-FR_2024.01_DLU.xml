@@ -266,7 +266,7 @@
 
   <!-- Médecin traitant -->
   <participant typeCode="INF">
-    <functionCode code="PCP" codeSystem="2.16.840.1.113883.5.88" displayName="Médecin Traitant"/>
+    <functionCode code="PCP" codeSystem="2.16.840.1.113883.5.88" displayName="Médecin traitant"/>
     <time xsi:type="IVL_TS">
       <low value="20240402"/>
     </time>
