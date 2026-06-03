@@ -30,7 +30,7 @@ var config_wanted = new Array("FOP_HOME", "CLASSPATH", "FOP_HYPHENATION_PATH", "
 // parse command-line arguments
 function read_args() {
   var args = WScript.Arguments;
-  var named = new ActiveXObject("Scripting.Dictionary");
+
   for (i = 0; i < args.length; i++) {
 	switch(args(i)) {
 	case "--debug":
@@ -135,7 +135,12 @@ function read_registry(section) {
 		  WScript.Echo(config_wanted[j] + " " + rks[i] + ": "
 					   + config.Item(config_wanted[j]));
 		}
-	  } catch(e) {}
+	  } catch(e) {
+	  // Registry key may not exist; log in debug mode
+	  if (debug) {
+		WScript.Echo("Registry read failed: " + e.message);
+	  }
+	}
 	}
   }
 }
