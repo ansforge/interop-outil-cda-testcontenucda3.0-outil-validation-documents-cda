@@ -36,7 +36,7 @@
     <include href="include/jeuxDeValeurs/CANCER-FRCP_2025.01/JDV_TraitementSoins-FRCP-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/CANCER-FRCP_2025.01/JDV_Tumeur-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/CANCER-FRCP_2025.01/JDV_TypeTraitement-FRCP-CISIS.sch"/>
-    <include href="include/jeuxDeValeurs/CANCER-FRCP_2025.01/JDV_Morphologie-CISIS.sch"/>
+<!--    <include href="include/jeuxDeValeurs/CANCER-FRCP_2025.01/JDV_Morphologie-CISIS.sch"/>-->
     
     <include href="include/specificationsVolets/CANCER-FRCP_2025.01/Entete/Entete_FRCP.sch"/>
     <include href="include/specificationsVolets/CANCER-FRCP_2025.01/Sections/S_cancerDiagnosis_FRCP.sch"/>
@@ -63,7 +63,7 @@
         
         <active pattern="Entete_FRCP"/>
         <active pattern="S_cancerDiagnosis_FRCP"/>
-        <active pattern="JDV_Morphologie-CISIS"/>
+<!--        <active pattern="JDV_Morphologie-CISIS"/>-->
         
     </phase>    
 

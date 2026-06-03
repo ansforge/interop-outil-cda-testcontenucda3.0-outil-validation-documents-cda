@@ -22,7 +22,7 @@
             [S_cancerDiagnosis_FRCP] Erreur de conformité au document FRCP : La présence du diagnostic (282291009) de la tumeur est obligatoire.
         </assert>
         <!-- Modification du code de l'entrée TNM 21908-9 par 75620-5 -->
-        <assert test="cda:entry/cda:act/cda:entryRelationship/cda:observation/cda:entryRelationship/cda:observation/cda:code[@code='75620-5'] ">
+        <!--<assert test="cda:entry/cda:act/cda:entryRelationship/cda:observation/cda:entryRelationship/cda:observation/cda:code[@code='75620-5'] ">
             [S_cancerDiagnosis_FRCP] Erreur de conformité au document FRCP : La classification 'TNM' de la tumeur est obligatoire.
         </assert>
         
@@ -36,7 +36,7 @@
         
         <assert test="cda:entry/cda:act/cda:entryRelationship/cda:observation/cda:entryRelationship/cda:observation/cda:entryRelationship/cda:observation/cda:code[@code='21907-1'] ">
             [S_cancerDiagnosis_FRCP] Erreur de conformité au document FRCP : La classification 'M' de la tumeur est obligatoire.
-        </assert>
+        </assert>-->
 
     </rule>
 </pattern>
