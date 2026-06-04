@@ -101,6 +101,7 @@
     <include href="../include/entrees/E_imputabiliteEffetIndesirable_ANS.sch"/>
     <include href="../include/entrees/E_graviteEffetIndesirable_ANS.sch"/>
     <include href="../include/entrees/E_evolutionEffetIndesirable_ANS.sch"/>
+    <include href="../include/entrees/E_statutDuDossierPresenteEnRCP.sch"/>
     
     
     
@@ -186,6 +187,7 @@
         <active pattern="E_imputabiliteEffetIndesirable_ANS"></active> 
         <active pattern="E_graviteEffetIndesirable_ANS"></active> 
         <active pattern="E_evolutionEffetIndesirable_ANS"></active> 
+        <active pattern="E_statutDuDossierPresenteEnRCP_ANS"></active> 
         
         
         
