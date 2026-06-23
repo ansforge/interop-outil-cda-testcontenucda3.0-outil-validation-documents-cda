@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-modalite-entree-esms-cisis"
+             effectiveDate="2026-03-02T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.834"
+             name="JdvModaliteEntreeEsmsCisis"
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="JDV Modalite Entree ESMS CISIS"
+             version="2026-03-28T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="ORG-227"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260302000000"
+                  displayName="Domicile ou milieu ordinaire"/>
+         <Concept code="129"
+                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  dateValid="20260328000000"
+                  displayName="Etablissement de Soins Médicaux"/>
+         <Concept code="ORG-228"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260302000000"
+                  displayName="Etablissement médico-social"/>
+         <Concept code="ORG-229"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260302000000"
+                  displayName="Provenance inconnue"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

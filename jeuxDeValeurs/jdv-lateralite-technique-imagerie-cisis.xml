@@ -6,14 +6,14 @@
              effectiveDate="2021-06-03T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.617"
              name="JdvLateraliteTechniqueImagerieCisis"
-             revisionDate="2026-04-20T15:02:47+01:00"
+             revisionDate="2026-06-19T13:40:40+01:00"
              title="JDV Lateralite Technique Imagerie CISIS"
              version="2022-11-14T00:00:00+01:00">
       <ConceptList>
          <Concept code="66459002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="unilatéral"/>
+                  displayName="unilatéral(e)"/>
          <Concept code="51440002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"

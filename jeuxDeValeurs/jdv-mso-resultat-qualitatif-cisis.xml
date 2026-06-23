@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-mso-resultat-qualitatif-cisis"
+             effectiveDate="2026-03-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.833"
+             name="JdvMsoResultatQualitatifCisis"
+             revisionDate="2026-03-11T14:49:01+01:00"
+             title="Jdv MSO Resultat Qualitatif CISIS"
+             version="2026-03-01T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="10828004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260301000000"
+                  displayName="positif(-ive)"/>
+         <Concept code="en attente"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260301000000"
+                  displayName="positif – séroconversion"/>
+         <Concept code="en attente"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260301000000"
+                  displayName="positif - multiplication par 4"/>
+         <Concept code="260385009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260301000000"
+                  displayName="négatif(-ive)"/>
+         <Concept code="en attente"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260301000000"
+                  displayName="douteux"/>
+         <Concept code="373121007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260301000000"
+                  displayName="test non effectué"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

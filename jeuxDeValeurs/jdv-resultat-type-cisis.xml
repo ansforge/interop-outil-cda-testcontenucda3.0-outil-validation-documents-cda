@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-resultat-type-cisis"
+             effectiveDate="2025-10-03T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.828"
+             name="JdvResultatTypeCisis"
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="Jdv Type Resultat Type CISIS"
+             version="2025-10-03T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="18748-4"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20251003000000"
+                  displayName="Imagerie"/>
+         <Concept code="26438-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20251003000000"
+                  displayName="Cytologie"/>
+         <Concept code="27898-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20251003000000"
+                  displayName="Pathologie"/>
+         <Concept code="26435-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20251003000000"
+                  displayName="Génétique humaine"/>
+         <Concept code="26436-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20251003000000"
+                  displayName="Biologie polyvalente"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

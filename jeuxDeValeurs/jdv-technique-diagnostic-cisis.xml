@@ -6,14 +6,14 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.48"
              name="JdvTechniqueDiagnosticCisis"
-             revisionDate="2026-04-20T15:02:48+01:00"
+             revisionDate="2026-06-19T13:40:41+01:00"
              title="JDV Technique Diagnostic CISIS"
              version="2025-02-25T00:00:00+01:00">
       <ConceptList>
          <Concept code="73735000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250225000000"
-                  displayName="technique cytogénétique"/>
+                  displayName="procédure cytogénétique"/>
          <Concept code="MED-082"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"

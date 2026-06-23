@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-collectivite-sujets-a-risque-rougeole-cisis"
+             effectiveDate="2026-04-08T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.849"
+             name="JdvCollectiviteSujetsARisqueRougeoleCisis"
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="Jdv Collectivite Sujets A Risque Rougeole CISIS"
+             version="2026-04-08T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="285084006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260408000000"
+                  displayName="lieu d'accueil petite enfance"/>
+         <Concept code="43741000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260408000000"
+                  displayName="site de soins"/>
+         <Concept code="GEN-092.06.11"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260408000000"
+                  displayName="Autre collectivité"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

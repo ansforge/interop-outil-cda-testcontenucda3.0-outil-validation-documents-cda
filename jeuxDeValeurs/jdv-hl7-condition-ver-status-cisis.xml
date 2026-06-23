@@ -6,7 +6,7 @@
              effectiveDate="2024-06-06T00:00:00+01:00"
              id="2.16.840.1.113883.4.642.3.166"
              name="ConditionVerificationStatus"
-             revisionDate="2026-04-20T15:02:47+01:00"
+             revisionDate="2026-06-19T13:40:40+01:00"
              title="Condition Verification Status"
              version="2024-06-06T00:00:00+01:00">
       <ConceptList>

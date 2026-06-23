@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260505120000"
              dateValid="20240927120000"
              description="Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie."
              displayName="JDV_J281_StatutsRessourcesMS"
              effectiveDate="2024-09-27T12:00:00+01:00"
              id="1.2.250.1.213.3.4.219"
-             revisionDate="2025-12-22T12:00:00+01:00"
+             revisionDate="2026-05-05T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS">
       <ConceptList>
@@ -37,6 +37,9 @@
          <Concept code="ENPAUSE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="En pause"/>
+         <Concept code="FACTURE"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  displayName="Facturé"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

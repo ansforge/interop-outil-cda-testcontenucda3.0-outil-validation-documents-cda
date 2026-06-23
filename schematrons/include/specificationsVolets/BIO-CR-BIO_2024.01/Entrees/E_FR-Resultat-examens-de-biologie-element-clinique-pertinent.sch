@@ -6,6 +6,7 @@
     
     Historique :
     13/01/2021 : Création
+    18/06/2026 : Suppression du test sur le statusCode
 -->
 <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="E_FR-Resultat-examens-de-biologie-element-clinique-pertinent">
     <p>Vérification de la conformité d'une entrée FR-Resultat-examens-de-biologie-element-clinique-pertinent (1.3.6.1.4.1.19376.1.3.1.6)</p>
@@ -17,10 +18,10 @@
             doit avoir un @moodCode 'EVN'. 
         </assert>
 
-        <assert test="./cda:statusCode[@code = 'completed'] or ./cda:statusCode[@code = 'aborted']"> 
+        <!--<assert test="./cda:statusCode[@code = 'completed'] or ./cda:statusCode[@code = 'aborted'] or ./cda:statusCode[@code = 'active']"> 
             [E_FR-Resultat-examens-de-biologie-element-clinique-pertinent] Erreur de conformité :
             Un résultat doit avoir un statusCode@code valant 'completed' ou 'aborted'. 
-        </assert>
+        </assert>-->
         
         <assert test="./cda:entryRelationship[@typeCode = 'REFR']/cda:observation/cda:effectiveTime or
                       not(./cda:entryRelationship[@typeCode = 'REFR'])"> 

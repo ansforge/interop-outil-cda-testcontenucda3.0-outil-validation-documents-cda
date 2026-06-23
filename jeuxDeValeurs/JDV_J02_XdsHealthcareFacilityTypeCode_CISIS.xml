@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250523120000"
+             dateMaj="20260223120000"
              dateValid="20141008000000"
              description="XDS healthcareFacilityTypeCode CI-SIS"
              displayName="JDV_J02_XdsHealthcareFacilityTypeCode_CISIS"
              effectiveDate="2014-10-08T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.466"
-             revisionDate="2025-05-23T12:00:00+01:00"
+             revisionDate="2026-02-23T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS">
       <ConceptList>
@@ -132,7 +132,7 @@
                   displayName="Pharmacie mutualiste"/>
          <Concept code="SA40"
                   codeSystem="1.2.250.1.71.4.2.4"
-                  displayName="Secteur privé, praticien hospitalier temps plein"/>
+                  displayName="Secteur privé, praticien hospitalier"/>
          <Concept code="SA41"
                   codeSystem="1.2.250.1.71.4.2.4"
                   displayName="Autre établissement du domaine social ou médico-social"/>

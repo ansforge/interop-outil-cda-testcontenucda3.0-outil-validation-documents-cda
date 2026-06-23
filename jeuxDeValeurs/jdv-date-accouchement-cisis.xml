@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-date-accouchement-cisis"
+             effectiveDate="2026-04-13T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.853"
+             name="JdvDateAccouchementCisis"
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="JDV Date Accouchement CISIS"
+             version="2026-04-13T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="11778-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20260413000000"
+                  displayName="Date estimée de l'accouchement"/>
+         <Concept code="11779-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20260413000000"
+                  displayName="Date estimée de l'accouchement à partir de la dernière période menstruelle"/>
+         <Concept code="11780-4"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20260413000000"
+                  displayName="Date estimée de l'accouchement à partir de la date d'ovulation"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

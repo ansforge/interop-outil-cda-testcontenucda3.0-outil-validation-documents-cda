@@ -6,7 +6,7 @@
              effectiveDate="2022-05-09T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.686"
              name="JdvHumanSubstanceAdministrationSiteCisis"
-             revisionDate="2026-04-20T15:02:46+01:00"
+             revisionDate="2026-06-19T13:40:39+01:00"
              title="JDV Human Substance Administration Site CISIS"
              version="2025-03-12T00:00:00+01:00">
       <ConceptList>
@@ -101,11 +101,11 @@
          <Concept code="1290032005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250312000000"
-                  displayName="œil droit"/>
+                  displayName="œil droit proprement dit"/>
          <Concept code="1290031003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250312000000"
-                  displayName="œil gauche"/>
+                  displayName="œil gauche proprement dit"/>
          <Concept code="40638003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221121000000"
@@ -133,7 +133,7 @@
          <Concept code="16217661000119109"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221121000000"
-                  displayName="deltoïde droit"/>
+                  displayName="deltoïde droit"/>
          <Concept code="25577004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221121000000"

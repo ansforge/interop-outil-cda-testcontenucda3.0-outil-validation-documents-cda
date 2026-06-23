@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-etat-de-conscience-cisis "
+             effectiveDate="2025-10-29T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.829"
+             name="JdvEtatDeConscienceCisis "
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="Jdv Etat De Conscience CISIS"
+             version="2025-10-29T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="MED-1301"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251029000000"
+                  displayName="Conscient et éveillé"/>
+         <Concept code="MED-1302"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251029000000"
+                  displayName="Eveillable"/>
+         <Concept code="MED-1303"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251029000000"
+                  displayName="Non éveillable"/>
+         <Concept code="MED-1330"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251029000000"
+                  displayName="Etat de conscience inconnu"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

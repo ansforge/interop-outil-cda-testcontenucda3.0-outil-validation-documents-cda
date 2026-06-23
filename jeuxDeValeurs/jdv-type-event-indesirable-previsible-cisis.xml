@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-type-event-indesirable-previsible-cisis"
+             effectiveDate="2026-03-31T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.842"
+             name="JdvTypeEventIndesirablePrevisibleCisis"
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="JDV Type Event Indesirable Previsible CISIS"
+             version="2026-03-31T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="420134006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260331000000"
+                  displayName="propension aux effets indésirables"/>
+         <Concept code="609328004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260331000000"
+                  displayName="prédisposition aux allergies"/>
+         <Concept code="609396006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260331000000"
+                  displayName="terrain d'hypersensibilité non allergique"/>
+         <Concept code="782197009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260331000000"
+                  displayName="intolérance à une substance"/>
+         <Concept code="56840009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260331000000"
+                  displayName="idiosyncrasie"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -6,18 +6,18 @@
              effectiveDate="2020-05-07T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.499"
              name="JdvEvaluationDouleurCisis"
-             revisionDate="2026-04-20T15:02:48+01:00"
+             revisionDate="2026-06-19T13:40:41+01:00"
              title="JDV Evaluation Douleur CISIS"
-             version="2025-05-06T00:00:00+01:00">
+             version="2026-06-19T00:00:00+01:00">
       <ConceptList>
          <Concept code="MED-659"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20200511000000"
                   displayName="Non évaluable"/>
-         <Concept code="301379001"
+         <Concept code="81765008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20250506000000"
-                  displayName="aucune présence de douleur"/>
+                  dateValid="20260619000000"
+                  displayName="pas de douleur"/>
          <Concept code="40196000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250506000000"

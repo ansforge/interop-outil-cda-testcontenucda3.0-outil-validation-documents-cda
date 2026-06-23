@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-origine-information-vaccin-rougeole-cisis"
+             effectiveDate="2026-04-08T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.851"
+             name="JdvOrigineInformationVaccinRougeoleCisis"
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="Jdv Origine Information Vaccin Rougeole CISIS"
+             version="2026-04-08T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="405672008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260408000000"
+                  displayName="interrogation directe"/>
+         <Concept code="312853008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260408000000"
+                  displayName="revue de dossier médical"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

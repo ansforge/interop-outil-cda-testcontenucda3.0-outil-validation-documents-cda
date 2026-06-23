@@ -6,9 +6,9 @@
              effectiveDate="2022-11-14T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.688"
              name="JdvModificateurTopographiqueCisis"
-             revisionDate="2026-04-20T15:02:46+01:00"
+             revisionDate="2026-06-19T13:40:39+01:00"
              title="JDV Modificateur Topographique CISIS"
-             version="2026-03-30T00:00:00+01:00">
+             version="2026-06-09T00:00:00+01:00">
       <ConceptList>
          <Concept code="24028007"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -222,6 +222,10 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20260330000000"
                   displayName="spontané(e)"/>
+         <Concept code="255562008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260609000000"
+                  displayName="milieu"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

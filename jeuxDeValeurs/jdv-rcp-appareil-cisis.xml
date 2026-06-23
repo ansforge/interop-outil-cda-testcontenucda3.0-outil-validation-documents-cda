@@ -6,14 +6,10 @@
              effectiveDate="2021-04-19T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.597"
              name="JdvRcpAppareilCisis"
-             revisionDate="2026-04-20T15:02:48+01:00"
+             revisionDate="2026-06-19T13:40:41+01:00"
              title="JDV RCP Appareil CISIS"
-             version="2025-07-18T00:00:00+01:00">
+             version="2026-06-01T00:00:00+01:00">
       <ConceptList>
-         <Concept code="387910009"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20230707000000"
-                  displayName="glande endocrine"/>
          <Concept code="57171008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
@@ -21,7 +17,7 @@
          <Concept code="81745001"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250718000000"
-                  displayName="œil"/>
+                  displayName="œil proprement dit"/>
          <Concept code="272673000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
@@ -37,7 +33,7 @@
          <Concept code="86762007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
-                  displayName="système digestif"/>
+                  displayName="appareil digestif"/>
          <Concept code="53065001"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
@@ -53,11 +49,7 @@
          <Concept code="122489005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
-                  displayName="système urinaire"/>
-         <Concept code="312419003"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20230707000000"
-                  displayName="appareil respiratoire et/ou cavité thoracique"/>
+                  displayName="appareil urinaire"/>
          <Concept code="87784001"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
@@ -66,6 +58,14 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
                   displayName="voies aérodigestives supérieures"/>
+         <Concept code="699593001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260601000000"
+                  displayName="cavité thoracique et/ou contenu intrathoracique"/>
+         <Concept code="113331007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260601000000"
+                  displayName="système endocrinien"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

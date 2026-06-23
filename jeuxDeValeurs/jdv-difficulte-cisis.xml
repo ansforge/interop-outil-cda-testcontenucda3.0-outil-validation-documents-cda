@@ -6,9 +6,9 @@
              effectiveDate="2020-03-31T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.494"
              name="JdvDifficulteCisis"
-             revisionDate="2026-04-20T15:02:48+01:00"
+             revisionDate="2026-06-19T13:40:41+01:00"
              title="JDV Difficulte CISIS"
-             version="2024-03-15T00:00:00+01:00">
+             version="2026-06-19T00:00:00+01:00">
       <ConceptList>
          <Concept code="36203004"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -18,10 +18,10 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240315000000"
                   displayName="difficile"/>
-         <Concept code="702370009"
+         <Concept code="1303248003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20240315000000"
-                  displayName="procédure impossible"/>
+                  dateValid="20260619000000"
+                  displayName="non éligible à une procédure"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

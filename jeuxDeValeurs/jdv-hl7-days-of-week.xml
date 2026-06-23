@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-hl7-days-of-week"
+             effectiveDate="2025-07-11T00:00:00+01:00"
+             id="2.16.840.1.113883.4.642.3.512"
+             name="DaysOfWeek"
+             revisionDate="2026-03-11T14:49:02+01:00"
+             title="DaysOfWeek"
+             version="2025-07-11T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="mon"
+                  codeSystem="2.16.840.1.113883.4.642.4.513"
+                  dateValid="20250711000000"
+                  displayName="lundi"/>
+         <Concept code="tue"
+                  codeSystem="2.16.840.1.113883.4.642.4.513"
+                  dateValid="20250711000000"
+                  displayName="mardi"/>
+         <Concept code="wed"
+                  codeSystem="2.16.840.1.113883.4.642.4.513"
+                  dateValid="20250711000000"
+                  displayName="mercredi"/>
+         <Concept code="thu"
+                  codeSystem="2.16.840.1.113883.4.642.4.513"
+                  dateValid="20250711000000"
+                  displayName="jeudi"/>
+         <Concept code="fri"
+                  codeSystem="2.16.840.1.113883.4.642.4.513"
+                  dateValid="20250711000000"
+                  displayName="vendredi"/>
+         <Concept code="sat"
+                  codeSystem="2.16.840.1.113883.4.642.4.513"
+                  dateValid="20250711000000"
+                  displayName="samedi"/>
+         <Concept code="sun"
+                  codeSystem="2.16.840.1.113883.4.642.4.513"
+                  dateValid="20250711000000"
+                  displayName="dimanche"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

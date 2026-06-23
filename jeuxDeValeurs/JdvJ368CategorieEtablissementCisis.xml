@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250422180228"
+             dateValid="20250222180228"
+             description="JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"
+             displayName="JdvJ368CategorieEtablissementCisis"
+             effectiveDate="2025-02-22T18:02:28+01:00"
+             id="1.2.250.1.213.1.1.5.823"
+             revisionDate="2025-04-22T18:02:28+01:00"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList/>
+   </ValueSet>
+</RetrieveValueSetResponse>

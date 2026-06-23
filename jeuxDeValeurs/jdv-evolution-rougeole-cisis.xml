@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-evolution-rougeole-cisis"
+             effectiveDate="2026-04-08T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.848"
+             name="JdvEvolutionRougeoleCisis"
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="JDV Evolution Rougeole CISIS"
+             version="2026-04-10T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="723110008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260410000000"
+                  displayName="séquelle d'une infection causée par Morbillivirus"/>
+         <Concept code="1352007006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260408000000"
+                  displayName="guérison sans séquelle"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

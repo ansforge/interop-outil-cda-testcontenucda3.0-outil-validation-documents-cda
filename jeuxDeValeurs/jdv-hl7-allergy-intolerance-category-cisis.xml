@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-hl7-allergy-intolerance-category-cisis"
+             effectiveDate="2026-03-31T00:00:00+01:00"
+             id="2.16.840.1.113883.4.642.3.133"
+             name="AllergyIntoleranceCategory"
+             revisionDate="2026-06-19T13:40:39+01:00"
+             title="AllergyIntoleranceCategory"
+             version="2026-03-31T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="food"
+                  codeSystem="2.16.840.1.113883.4.642.4.134"
+                  dateValid="20260331000000"
+                  displayName="aliment"/>
+         <Concept code="medication"
+                  codeSystem="2.16.840.1.113883.4.642.4.134"
+                  dateValid="20260331000000"
+                  displayName="médicament"/>
+         <Concept code="environment"
+                  codeSystem="2.16.840.1.113883.4.642.4.134"
+                  dateValid="20260331000000"
+                  displayName="environnement"/>
+         <Concept code="biologic"
+                  codeSystem="2.16.840.1.113883.4.642.4.134"
+                  dateValid="20260331000000"
+                  displayName="produit biologique"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

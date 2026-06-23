@@ -6,9 +6,9 @@
              effectiveDate="2016-09-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.820"
              name="JdvModeleDocumentCdaCisis "
-             revisionDate="2026-04-20T15:02:47+01:00"
+             revisionDate="2026-06-19T13:40:40+01:00"
              title="Jdv Modele Document CDA CISIS"
-             version="2025-06-04T00:00:00+01:00">
+             version="2026-06-16T00:00:00+01:00">
       <ConceptList>
          <Concept code="1.3.6.1.4.1.19376.1.2.20"
                   codeSystem="1.2.250.1.213.1.1.4.329"
@@ -234,6 +234,26 @@
                   codeSystem="1.2.250.1.213.1.1.4.328"
                   dateValid="20240426000000"
                   displayName="Fiche de retour du service des urgences"/>
+         <Concept code="1.2.250.1.213.1.11.1.19.1"
+                  codeSystem="1.2.250.1.213.1.1.4.328"
+                  dateValid="20260616000000"
+                  displayName="PSIG – Formulaire MSO Rougeole"/>
+         <Concept code="1.2.250.1.213.1.11.1.19.2"
+                  codeSystem="1.2.250.1.213.1.1.4.328"
+                  dateValid="20260616000000"
+                  displayName="PSIG – Formulaire MSO Dengue"/>
+         <Concept code="1.2.250.1.213.1.11.1.19.3"
+                  codeSystem="1.2.250.1.213.1.1.4.328"
+                  dateValid="20260616000000"
+                  displayName="PSIG – Formulaire MSO Chikungunya"/>
+         <Concept code="1.2.250.1.213.1.11.1.19.4"
+                  codeSystem="1.2.250.1.213.1.1.4.328"
+                  dateValid="20260616000000"
+                  displayName="PSIG – Formulaire MSO Zika"/>
+         <Concept code="1.2.250.1.213.1.11.1.19.5"
+                  codeSystem="1.2.250.1.213.1.1.4.328"
+                  dateValid="20260616000000"
+                  displayName="PSIG – Formulaire MSO West Nile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -6,7 +6,7 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.621"
              name="JdvImmunizationApproachSiteCodeCisis"
-             revisionDate="2026-04-20T15:02:46+01:00"
+             revisionDate="2026-06-19T13:40:39+01:00"
              title="JDV Immunization Approach Site Code CISIS"
              version="2023-11-14T00:00:00+01:00">
       <ConceptList>
@@ -29,11 +29,11 @@
          <Concept code="91774008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20231114000000"
-                  displayName="épaule droite"/>
+                  displayName="région de l'épaule droite"/>
          <Concept code="91775009"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20231114000000"
-                  displayName="épaule gauche"/>
+                  displayName="région de l'épaule gauche"/>
          <Concept code="11207009"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221207000000"

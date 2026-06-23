@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-situation-matrimoniale-cisis "
+             effectiveDate="2026-01-14T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.831"
+             name="JdvSituationMatrimonialeCisis "
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="Jdv Situation Matrimoniale CISIS"
+             version="2026-01-14T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="125681006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260114000000"
+                  displayName="célibataire"/>
+         <Concept code="87915002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260114000000"
+                  displayName="marié(e)"/>
+         <Concept code="GEN-417"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260114000000"
+                  displayName="Pacsé(e)"/>
+         <Concept code="GEN-418"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260114000000"
+                  displayName="Union libre/Concubinage"/>
+         <Concept code="20295000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260114000000"
+                  displayName="divorcé(e)"/>
+         <Concept code="33553000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260114000000"
+                  displayName="veuf(-ve)"/>
+         <Concept code="13184001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260114000000"
+                  displayName="séparé(e)"/>
+         <Concept code="160504008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260114000000"
+                  displayName="situation matrimoniale inconnue"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

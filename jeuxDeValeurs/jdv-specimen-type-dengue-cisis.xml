@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-specimen-type-dengue-cisis"
+             effectiveDate="2026-04-08T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.838"
+             name="jdvSpecimenTypeDengueCisis"
+             revisionDate="2026-06-19T13:40:40+01:00"
+             title="jDV Specimen Type Dengue CISIS"
+             version="2026-04-08T00:00:00+01:00">
+      <ConceptList>
+         <Concept code="CSF"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Liquide céphalorachidien"/>
+         <Concept code="PLEVS"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Sérum au pic"/>
+         <Concept code="RANDU"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Urine aléatoire"/>
+         <Concept code="SAL"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Salive"/>
+         <Concept code="SER"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Sérum"/>
+         <Concept code="UR"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Urine"/>
+         <Concept code="URC"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Urine 1er jet"/>
+         <Concept code="URINB"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Urine de lavage vésical"/>
+         <Concept code="URINC"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Urine cathétérisée"/>
+         <Concept code="URINM"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Urine milieu de jet"/>
+         <Concept code="URINP"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Urine de poche pédiatrique"/>
+         <Concept code="URT"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Urine par cathéter"/>
+         <Concept code="USCOP"
+                  codeSystem="2.16.840.1.113883.18.311"
+                  dateValid="20260408000000"
+                  displayName="Urine de cystoscopie"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
