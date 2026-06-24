@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
-         xmlns:dct="http://purl.org/dc/terms/"
          xmlns:edg="http://edg.topbraid.solutions/model/"
          xmlns:metadata="http://topbraid.org/metadata#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -10,6 +9,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:standardterms="http://data.esante.gouv.fr/coe/standardterms#"
          xmlns:teamwork="http://topbraid.org/teamwork#"
+         xmlns:terms="http://purl.org/dc/terms/"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xml:base="http://data.esante.gouv.fr/coe/standardterms">
    <rdf:Description>
@@ -62,6 +62,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>50030000</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>15065000</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>30019000</skos:notation>
@@ -167,6 +170,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>20084000</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>20092000</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>13054000</skos:notation>
@@ -982,6 +988,9 @@
       <skos:notation>0031</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>14018000</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>13044000</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -1318,6 +1327,9 @@
       <skos:notation>50056150</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>13203000</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>10121500</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -1565,6 +1577,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>31090</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>13204000</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>11602000</skos:notation>
@@ -2521,6 +2536,9 @@
       <skos:notation>0024</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>13202000</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>13016000</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -3205,6 +3223,9 @@
       <skos:notation>10117000</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>14019000</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>10802000</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -3863,6 +3884,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>10116000</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>20091000</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>30028000</skos:notation>
