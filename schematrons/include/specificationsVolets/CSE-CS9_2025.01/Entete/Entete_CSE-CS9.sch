@@ -7,6 +7,7 @@
     Historique :
     02/02/2018 :  NMA : Création
     03/12/2024 : Nouvelle version CSE-CS9
+    01/07/2026 : Correction du contrôle d'adresse patient qui n'est pas obligatoire
     
 -->
 

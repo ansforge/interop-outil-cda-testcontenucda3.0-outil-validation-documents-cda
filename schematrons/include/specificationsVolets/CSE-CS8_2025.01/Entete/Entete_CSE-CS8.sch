@@ -8,17 +8,13 @@
     02/02/2018 : NMA : Création
     10/11/2022 : Mises à jour suite à la migration des terminologies
     13/05/2025 : Mise à jour du code de la mère "MTH" en "NMTH"
+    01/07/2026 : Correction du contrôle d'adresse patient qui n'est pas obligatoire
     
 -->
 
 
 <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="Entete_CSE-CS8">
-    
     <rule context="cda:ClinicalDocument">
-        <assert test="./cda:recordTarget/cda:patientRole/cda:addr/cda:postalCode and not(./cda:recordTarget/cda:patientRole/cda:addr/cda:streetAddressLine)"> 
-            [Entete_CSE-CS8] Erreur de conformité : 
-            L'utilisation des composants élémentaires de l’adresse est obligatoire. Le code postal est aussi obligatoire.
-        </assert>
         <assert test="./cda:informant/cda:relatedEntity/cda:code/@code='NMTH'"> 
             [Entete_CSE-CS8] Erreur de conformité : 
             La présence de la mère est obligatoire dans le volet CS8
@@ -43,7 +39,10 @@
     </rule>
     
     <rule context='cda:ClinicalDocument/cda:recordTarget/cda:patientRole'>
-         
+        <assert test="not(cda:addr/cda:streetAddressLine)"> 
+            [Entete_CSE-CS8] Erreur de conformité : 
+            Seule l'utilisation des composants élémentaires de l’adresse est autorisée.
+        </assert>
         <!-- Teste la présence de la representedOrganisation -->
         <assert test="cda:patient/cda:birthTime">
             [Entete_CSE-CS8] La date de naissance du patient est oblgatoirement présente dans le volet CSE

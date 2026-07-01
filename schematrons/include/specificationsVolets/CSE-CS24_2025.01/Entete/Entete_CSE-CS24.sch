@@ -8,6 +8,7 @@
     02/02/2018 : Création
     10/11/2022 : Mises à jour suite à la migration des terminologies
     27/11/2024 : Version 2024
+    01/07/2026 : Correction du contrôle d'adresse patient qui n'est pas obligatoire
     
 -->
 
