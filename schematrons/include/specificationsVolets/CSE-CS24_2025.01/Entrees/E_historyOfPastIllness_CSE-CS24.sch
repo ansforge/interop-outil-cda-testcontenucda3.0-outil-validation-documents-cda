@@ -22,7 +22,7 @@
         <!-- Prématurité inf. à 33 semaines MED-183 -->
         <assert          
             test="cda:entry/cda:act[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.5.2']/cda:entryRelationship/cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.5']/cda:value/@code='MED-183'"> 
-            [E_historyOfPastIllness_CSE-SC24] Erreur de conformité : 
+            [E_historyOfPastIllness_CSE-CS24] Erreur de conformité : 
             L'entrée FR-Probleme "Prématurité inf. à 33 semaines" est obligatoire. 
         </assert>
         
@@ -32,9 +32,13 @@
             [E_historyOfPastIllness_CSE-SC24] Erreur de conformité :
             L'entrée FR-Probleme 'Accidents domestiques depuis le 9ème mois' est obligatoire.
         </assert>       
-        <assert test="not(cda:entry/cda:act[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.5.2']/cda:entryRelationship/cda:observation[@negationInd='false' and cda:value/@code='MED-185']) or cda:entry/cda:act[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.5.2']/cda:entryRelationship/cda:observation[cda:value/@code='MED-185']/cda:entryRelationship/@typeCode='CAUS'"> 
+     <assert test="not(cda:entry/cda:act[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.5.2']/cda:entryRelationship/cda:observation[@negationInd='false' and cda:value/@code='MED-186']) or cda:entry/cda:act[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.5.2']/cda:entryRelationship/cda:observation[@negationInd='false' and cda:value/@code='MED-186']/cda:entryRelationship[@typeCode='CAUS' and cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']]"> 
             [E_historyOfPastIllness_CSE-SC24] Erreur de conformité : 
-            La cause de l'accident domestique doit être indiquée dans un élément entryRelationship d'attribut typeCode='CAUS'
+            Si l'entrée FR-Probleme MED-186 a negationInd='false', au moins une sous-entrée FR-Simple-Observation doit être indiquée dans un entryRelationship de typeCode='CAUS'.
+        </assert>
+        <assert test="not(cda:entry/cda:act[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.5.2']/cda:entryRelationship/cda:observation[@negationInd='true' and cda:value/@code='MED-186']/cda:entryRelationship[@typeCode='CAUS'])">
+            [E_historyOfPastIllness_CSE-SC24] Erreur de conformité :
+            Si l'entrée FR-Probleme MED-186 a negationInd='true', aucun entryRelationship de typeCode='CAUS' ne doit être présent.
         </assert>
                 
     </rule> 
