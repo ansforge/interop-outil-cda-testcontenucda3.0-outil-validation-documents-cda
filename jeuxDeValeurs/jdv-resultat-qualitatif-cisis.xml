@@ -6,9 +6,9 @@
              effectiveDate="2026-03-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.832"
              name="JdvResultatQualitatifCisis"
-             revisionDate="2026-06-19T13:40:40+01:00"
+             revisionDate="2026-07-16T08:58:50+01:00"
              title="Jdv Resultat Qualitatif CISIS"
-             version="2026-03-01T00:00:00+01:00">
+             version="2026-07-06T00:00:00+01:00">
       <ConceptList>
          <Concept code="10828004"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -66,10 +66,6 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20260301000000"
                   displayName="présence +++ sur +++"/>
-         <Concept code="373121007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20260301000000"
-                  displayName="test non effectué"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

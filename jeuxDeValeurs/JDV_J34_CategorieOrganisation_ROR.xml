@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260505120000"
+             dateMaj="20260629120000"
              dateValid="20171013120000"
              description="Catégorie d'organisation - ROR"
              displayName="JDV_J34_CategorieOrganisation_ROR"
              effectiveDate="2017-10-13T12:00:00+01:00"
              id="1.2.250.1.213.3.3.40"
-             revisionDate="2026-05-05T12:00:00+01:00"
+             revisionDate="2026-06-29T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR">
       <ConceptList>
@@ -744,9 +744,6 @@
          <Concept code="251"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Centre Périnatal de Proximité (CPP)"/>
-         <Concept code="252"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Equipes Mobiles de Soins Palliatifs (EMSP)"/>
          <Concept code="253"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Equipe Ressource Régionale de Soins Palliatifs Pédiatriques (ERRSPP)"/>
@@ -777,15 +774,6 @@
          <Concept code="264"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité de soins intensifs spécialisés hématologie (USIH)"/>
-         <Concept code="265"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Equipe mobile d'algologie"/>
-         <Concept code="266"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Equipe mobile de gériatrie (EMG)"/>
-         <Concept code="267"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Equipe mobile d'endocrinologie, diabétologie, métabolisme et nutrition"/>
          <Concept code="268"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Centre de lutte antituberculeuse (CLAT)"/>

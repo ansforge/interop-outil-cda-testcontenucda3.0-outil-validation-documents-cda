@@ -6,9 +6,9 @@
              effectiveDate="2026-03-05T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.836"
              name="JdvSectionDocumentCisis"
-             revisionDate="2026-06-19T13:40:40+01:00"
+             revisionDate="2026-07-16T08:58:50+01:00"
              title="JDV Section Document CISIS"
-             version="2026-03-20T00:00:00+01:00">
+             version="2026-06-23T00:00:00+01:00">
       <ConceptList>
          <Concept code="10154-3"
                   codeSystem="2.16.840.1.113883.6.1"
@@ -502,10 +502,6 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20260320000000"
                   displayName="Entrées/sorties hydro-électrolytiques"/>
-         <Concept code="xx-MCH-PsychoMDev"
-                  codeSystem="2.16.840.1.113883.6.1"
-                  dateValid="20260305000000"
-                  displayName="Développement psychomoteur"/>
          <Concept code="GEN-168"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20260305000000"
