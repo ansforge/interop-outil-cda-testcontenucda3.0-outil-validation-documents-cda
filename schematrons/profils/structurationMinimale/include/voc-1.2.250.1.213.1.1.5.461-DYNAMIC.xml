@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
-   <valueSet xmlns="" displayName="JDV_J01_XdsAuthorSpecialty_CISIS" effectiveDate="2025-12-22T12:00:00+01:00" id="1.2.250.1.213.1.1.5.461" name="JDV_J01_XdsAuthorSpecialty_CISIS" statusCode="final" versionLabel="2012-11-12T00:00:00+01:00" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
+   <valueSet xmlns="" displayName="JDV_J01_XdsAuthorSpecialty_CISIS" effectiveDate="2026-05-05T12:00:00+01:00" id="1.2.250.1.213.1.1.5.461" name="JDV_J01_XdsAuthorSpecialty_CISIS" statusCode="final" versionLabel="2012-11-12T00:00:00+01:00" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
       <sourceCodeSystem id="1.2.250.1.213.1.1.4.6" identifierName="TRE_A00_ProducteurDocNonPS" canonicalUri="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriR4="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriR4B="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriR5="urn:oid:1.2.250.1.213.1.1.4.6"/>
       <sourceCodeSystem id="1.2.250.1.213.1.1.4.5" identifierName="TRE_A02_ProfessionSavFaire_CISIS" canonicalUri="urn:oid:1.2.250.1.213.1.1.4.5" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.1.4.5" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.1.4.5" canonicalUriR4="urn:oid:1.2.250.1.213.1.1.4.5" canonicalUriR4B="urn:oid:1.2.250.1.213.1.1.4.5" canonicalUriR5="urn:oid:1.2.250.1.213.1.1.4.5"/>
-      <sourceCodeSystem id="1.2.250.1.213.1.6.1.4" identifierName="TRE_R94_ProfessionSocial" canonicalUri="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriR4="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriR4B="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriR5="urn:oid:1.2.250.1.213.1.6.1.4"/>
-      <sourceCodeSystem id="1.2.250.1.213.1.6.1.107" identifierName="TRE_R85_RolePriseCharge" canonicalUri="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriR4="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriR4B="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriR5="urn:oid:1.2.250.1.213.1.6.1.107"/>
       <sourceCodeSystem id="1.2.250.1.213.1.6.1.109" identifierName="TRE_R95_UsagerTitre" canonicalUri="urn:oid:1.2.250.1.213.1.6.1.109" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.6.1.109" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.6.1.109" canonicalUriR4="urn:oid:1.2.250.1.213.1.6.1.109" canonicalUriR4B="urn:oid:1.2.250.1.213.1.6.1.109" canonicalUriR5="urn:oid:1.2.250.1.213.1.6.1.109"/>
+      <sourceCodeSystem id="1.2.250.1.213.1.6.1.107" identifierName="TRE_R85_RolePriseCharge" canonicalUri="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriR4="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriR4B="urn:oid:1.2.250.1.213.1.6.1.107" canonicalUriR5="urn:oid:1.2.250.1.213.1.6.1.107"/>
+      <sourceCodeSystem id="1.2.250.1.213.1.6.1.4" identifierName="TRE_R94_ProfessionSocial" canonicalUri="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriR4="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriR4B="urn:oid:1.2.250.1.213.1.6.1.4" canonicalUriR5="urn:oid:1.2.250.1.213.1.6.1.4"/>
       <publishingAuthority name="Agence du Numérique en Santé" inherited="project"/>
       <conceptList>
          <concept code="ALIM_AM" codeSystem="1.2.250.1.213.1.1.4.6" displayName="Alimentation automatique à partir du Système d'Information de l'Assurance Maladie" level="0" type="L"/>
@@ -319,6 +319,7 @@
          <concept code="G15_10/SST24" codeSystem="1.2.250.1.213.1.1.4.5" displayName="Médecin - Sommeil (SST)" level="0" type="L"/>
          <concept code="G15_10/SST25" codeSystem="1.2.250.1.213.1.1.4.5" displayName="Médecin - Thérapie cellulaire/transfusion (SST)" level="0" type="L"/>
          <concept code="G15_10/SST26" codeSystem="1.2.250.1.213.1.1.4.5" displayName="Médecin - Urgences pédiatriques (SST)" level="0" type="L"/>
+         <concept code="G15_10/SST27" codeSystem="1.2.250.1.213.1.1.4.5" displayName="Médecin - Innovation et recherche en sciences biologiques et pharmaceutiques (SST)" level="0" type="L"/>
          <concept code="G15_21/FQ01" codeSystem="1.2.250.1.213.1.1.4.5" displayName="Pharmacien - Expérience prat. art. R.5124-16 du CSP Fabricant" level="0" type="L"/>
          <concept code="G15_21/FQ02" codeSystem="1.2.250.1.213.1.1.4.5" displayName="Pharmacien - Expérience prat. art. R.5124-16 du CSP Exploitant" level="0" type="L"/>
          <concept code="G15_21/FQ03" codeSystem="1.2.250.1.213.1.1.4.5" displayName="Pharmacien - Exp. prat. art. R.5124-16 du CSP Thérapie Cellulaire" level="0" type="L"/>
@@ -346,7 +347,7 @@
          <concept code="314" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Ambulancier" level="0" type="L"/>
          <concept code="315" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Auxiliaire de puériculture" level="0" type="L"/>
          <concept code="316" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Préparateur en pharmacie hospitalière" level="0" type="L"/>
-         <concept code="317" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Préparateur en pharmacie (officine)" level="0" type="L"/>
+         <concept code="317" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Préparateur en pharmacie" level="0" type="L"/>
          <concept code="319" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Technicien de l'intervention sociale et familiale" level="0" type="L"/>
          <concept code="320" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Conseiller en économie sociale et familiale" level="0" type="L"/>
          <concept code="321" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Médiateur familial" level="0" type="L"/>
@@ -398,6 +399,12 @@
          <concept code="371" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Aide à domicile qualifié(e)" level="0" type="L"/>
          <concept code="372" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Aide à domicile" level="0" type="L"/>
          <concept code="373" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Technicien d’études cliniques" level="0" type="L"/>
+         <concept code="374" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Agent d'autorité d'enregistrement" level="0" type="L"/>
+         <concept code="375" codeSystem="1.2.250.1.213.1.6.1.107" displayName="Conseiller conjugal et familial" level="0" type="L"/>
+         <concept code="376" codeSystem="1.2.250.1.213.1.6.1.107" displayName="PADHUE - Médecin" level="0" type="L"/>
+         <concept code="377" codeSystem="1.2.250.1.213.1.6.1.107" displayName="PADHUE - Pharmacien" level="0" type="L"/>
+         <concept code="378" codeSystem="1.2.250.1.213.1.6.1.107" displayName="PADHUE - Sage Femme" level="0" type="L"/>
+         <concept code="379" codeSystem="1.2.250.1.213.1.6.1.107" displayName="PADHUE - Chirurgien Dentiste" level="0" type="L"/>
       </conceptList>
    </valueSet>
 </valueSets>

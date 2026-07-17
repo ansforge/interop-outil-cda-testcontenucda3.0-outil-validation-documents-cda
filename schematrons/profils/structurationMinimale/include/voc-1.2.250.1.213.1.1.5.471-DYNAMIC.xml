@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
-   <valueSet xmlns="" displayName="JDV_J07_XdsTypeCode_CISIS" effectiveDate="2025-10-29T12:00:00+01:00" id="1.2.250.1.213.1.1.5.471" name="JDV_J07_XdsTypeCode_CISIS" statusCode="final" versionLabel="2013-01-23T00:00:00+01:00" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
+   <valueSet xmlns="" displayName="JDV_J07_XdsTypeCode_CISIS" effectiveDate="2026-06-29T12:00:00+01:00" id="1.2.250.1.213.1.1.5.471" name="JDV_J07_XdsTypeCode_CISIS" statusCode="final" versionLabel="2013-01-23T00:00:00+01:00" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
+      <sourceCodeSystem id="ASTM" identifierName="TRE_A12_NomenclatureASTM" canonicalUri="urn:oid:ASTM" canonicalUriDSTU2="urn:oid:ASTM" canonicalUriSTU3="urn:oid:ASTM" canonicalUriR4="urn:oid:ASTM" canonicalUriR4B="urn:oid:ASTM" canonicalUriR5="urn:oid:ASTM"/>
       <sourceCodeSystem id="1.2.250.1.213.1.1.4.12" identifierName="TRE_A05_TypeDocComplementaire" canonicalUri="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriR4="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriR4B="urn:oid:1.2.250.1.213.1.1.4.12" canonicalUriR5="urn:oid:1.2.250.1.213.1.1.4.12"/>
       <sourceCodeSystem id="2.16.840.1.113883.6.1" identifierName="Logical Observation Identifier Names and Codes" canonicalUri="http://loinc.org" canonicalUriDSTU2="http://loinc.org" canonicalUriSTU3="http://loinc.org" canonicalUriR4="http://loinc.org" canonicalUriR4B="http://loinc.org" canonicalUriR5="http://loinc.org" hl7v2table0396="LN"/>
-      <sourceCodeSystem id="ASTM" identifierName="TRE_A12_NomenclatureASTM" canonicalUri="urn:oid:ASTM" canonicalUriDSTU2="urn:oid:ASTM" canonicalUriSTU3="urn:oid:ASTM" canonicalUriR4="urn:oid:ASTM" canonicalUriR4B="urn:oid:ASTM" canonicalUriR5="urn:oid:ASTM"/>
       <publishingAuthority name="Agence du Numérique en Santé" inherited="project"/>
       <conceptList>
          <concept code="E1762" codeSystem="ASTM" displayName="Full Document" level="0" type="L"/>
          <concept code="11369-6" codeSystem="2.16.840.1.113883.6.1" displayName="Historique des vaccinations" level="0" type="L"/>
          <concept code="11488-4" codeSystem="2.16.840.1.113883.6.1" displayName="CR ou fiche de consultation ou de visite" level="0" type="L"/>
          <concept code="11490-0" codeSystem="2.16.840.1.113883.6.1" displayName="Lettre de liaison à la sortie d'un établissement de soins" level="0" type="L"/>
-         <concept code="34112-3" codeSystem="2.16.840.1.113883.6.1" displayName="CR hospitalier (séjour)" level="0" type="L"/>
          <concept code="11502-2" codeSystem="2.16.840.1.113883.6.1" displayName="CR d'examens biologiques" level="0" type="L"/>
          <concept code="11505-5" codeSystem="2.16.840.1.113883.6.1" displayName="CR d'acte thérapeutique (autre)" level="0" type="L"/>
          <concept code="11506-3" codeSystem="2.16.840.1.113883.6.1" displayName="CR ou fiche de suivi de soins par auxiliaire médical" level="0" type="L"/>
@@ -22,6 +21,7 @@
          <concept code="28617-9" codeSystem="2.16.840.1.113883.6.1" displayName="Bilan bucco-dentaire" level="0" type="L"/>
          <concept code="28653-4" codeSystem="2.16.840.1.113883.6.1" displayName="Document du secteur social / médico-social" level="0" type="L"/>
          <concept code="29274-8" codeSystem="2.16.840.1.113883.6.1" displayName="Mesures de signes vitaux" level="0" type="L"/>
+         <concept code="34112-3" codeSystem="2.16.840.1.113883.6.1" displayName="CR hospitalier (séjour)" level="0" type="L"/>
          <concept code="34120-6" codeSystem="2.16.840.1.113883.6.1" displayName="Bilan par professionnel de santé" level="0" type="L"/>
          <concept code="34133-9" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse d'épisode de soins" level="0" type="L"/>
          <concept code="34749-2" codeSystem="2.16.840.1.113883.6.1" displayName="CR de consultation pré-anesthésique" level="0" type="L"/>
@@ -30,13 +30,18 @@
          <concept code="34874-8" codeSystem="2.16.840.1.113883.6.1" displayName="CR opératoire" level="0" type="L"/>
          <concept code="34875-5" codeSystem="2.16.840.1.113883.6.1" displayName="Évaluation postopératoire et note de suivi" level="0" type="L"/>
          <concept code="34876-3" codeSystem="2.16.840.1.113883.6.1" displayName="Évaluation préopératoire et note de suivi" level="0" type="L"/>
+         <concept code="34895-3" codeSystem="2.16.840.1.113883.6.1" displayName="Fiche d'information au patient" level="0" type="L"/>
          <concept code="47420-5" codeSystem="2.16.840.1.113883.6.1" displayName="CR de bilan fonctionnel" level="0" type="L"/>
          <concept code="51851-4" codeSystem="2.16.840.1.113883.6.1" displayName="Document administratif" level="0" type="L"/>
          <concept code="51969-4" codeSystem="2.16.840.1.113883.6.1" displayName="CR de génétique moléculaire" level="0" type="L"/>
          <concept code="52040-3" codeSystem="2.16.840.1.113883.6.1" displayName="Document encapsulant une image d'illustration non DICOM" level="0" type="L"/>
          <concept code="55115-0" codeSystem="2.16.840.1.113883.6.1" displayName="Demande d'actes d'imagerie" level="0" type="L"/>
+         <concept code="55751-2" codeSystem="2.16.840.1.113883.6.1" displayName="Déclaration de problème de santé publique" level="0" type="L"/>
          <concept code="56445-0" codeSystem="2.16.840.1.113883.6.1" displayName="Bilan médicamenteux (Officine)" level="0" type="L"/>
          <concept code="56446-8" codeSystem="2.16.840.1.113883.6.1" displayName="Notification de rendez-vous" level="0" type="L"/>
+         <concept code="57055-6" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse antepartum" level="0" type="L"/>
+         <concept code="57057-2" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse Salle de Naissance Mère" level="0" type="L"/>
+         <concept code="57075-4" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse Salle de Naissance Enfant" level="0" type="L"/>
          <concept code="57828-6" codeSystem="2.16.840.1.113883.6.1" displayName="Prescription (autre)" level="0" type="L"/>
          <concept code="57832-8" codeSystem="2.16.840.1.113883.6.1" displayName="Prescription de soins" level="0" type="L"/>
          <concept code="57833-6" codeSystem="2.16.840.1.113883.6.1" displayName="Prescription de produits de santé" level="0" type="L"/>
@@ -61,6 +66,7 @@
          <concept code="75496-0" codeSystem="2.16.840.1.113883.6.1" displayName="Demande d'acte de télémédecine" level="0" type="L"/>
          <concept code="77436-4" codeSystem="2.16.840.1.113883.6.1" displayName="CR d'anesthésie" level="0" type="L"/>
          <concept code="77604-7" codeSystem="2.16.840.1.113883.6.1" displayName="Planification thérapeutique" level="0" type="L"/>
+         <concept code="78489-2" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse Enfant en Maternité" level="0" type="L"/>
          <concept code="78513-9" codeSystem="2.16.840.1.113883.6.1" displayName="CR de consultation en ophtalmologie" level="0" type="L"/>
          <concept code="78601-2" codeSystem="2.16.840.1.113883.6.1" displayName="CR d'entretien pharmaceutique" level="0" type="L"/>
          <concept code="80565-5" codeSystem="2.16.840.1.113883.6.1" displayName="CR d'administration de médicaments" level="0" type="L"/>
@@ -72,24 +78,22 @@
          <concept code="83901-9" codeSystem="2.16.840.1.113883.6.1" displayName="Bilan psychologique" level="0" type="L"/>
          <concept code="83963-9" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse environnementale" level="0" type="L"/>
          <concept code="83981-1" codeSystem="2.16.840.1.113883.6.1" displayName="Lettre de liaison à la sortie d'une structure sociale ou médico-sociale" level="0" type="L"/>
+         <concept code="84067-8" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse transfusionnelle" level="0" type="L"/>
          <concept code="85208-7" codeSystem="2.16.840.1.113883.6.1" displayName="CR de télémédecine" level="0" type="L"/>
          <concept code="86531-1" codeSystem="2.16.840.1.113883.6.1" displayName="Attestation de sortie" level="0" type="L"/>
          <concept code="87273-9" codeSystem="2.16.840.1.113883.6.1" displayName="Note de vaccination" level="0" type="L"/>
          <concept code="88348-8" codeSystem="2.16.840.1.113883.6.1" displayName="Lettre de liaison d'entrée en structure sociale ou médico-sociale" level="0" type="L"/>
+         <concept code="89233-1" codeSystem="2.16.840.1.113883.6.1" displayName="CR de grossesse" level="0" type="L"/>
+         <concept code="89235-6" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse Suites de Couches Mère" level="0" type="L"/>
          <concept code="89601-9" codeSystem="2.16.840.1.113883.6.1" displayName="Certificat médical" level="0" type="L"/>
          <concept code="93024-8" codeSystem="2.16.840.1.113883.6.1" displayName="CR de consultation pharmaceutique" level="0" type="L"/>
+         <concept code="96163-1" codeSystem="2.16.840.1.113883.6.1" displayName="Bilan de soins infirmiers" level="0" type="L"/>
+         <concept code="96173-0" codeSystem="2.16.840.1.113883.6.1" displayName="Test rapide d'orientation diagnostique" level="0" type="L"/>
          <concept code="96349-6" codeSystem="2.16.840.1.113883.6.1" displayName="Lettre d'adressage" level="0" type="L"/>
          <concept code="96874-3" codeSystem="2.16.840.1.113883.6.1" displayName="COVID-19 Attestation de vaccination" level="0" type="L"/>
-         <concept code="96173-0" codeSystem="2.16.840.1.113883.6.1" displayName="Test rapide d'orientation diagnostique" level="0" type="L"/>
-         <concept code="57055-6" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse antepartum" level="0" type="L"/>
-         <concept code="57057-2" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse Salle de Naissance Mère" level="0" type="L"/>
-         <concept code="57075-4" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse Salle de Naissance Enfant" level="0" type="L"/>
-         <concept code="89235-6" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse Suites de Couches Mère" level="0" type="L"/>
-         <concept code="78489-2" codeSystem="2.16.840.1.113883.6.1" displayName="Synthèse Enfant en Maternité" level="0" type="L"/>
-         <concept code="89233-1" codeSystem="2.16.840.1.113883.6.1" displayName="CR de grossesse" level="0" type="L"/>
-         <concept code="101881-1" codeSystem="2.16.840.1.113883.6.1" displayName="Carte d'implant" level="0" type="L"/>
          <concept code="97694-4" codeSystem="2.16.840.1.113883.6.1" displayName="Note d'évaluation en médecine maternelle et fœtale" level="0" type="L"/>
          <concept code="100967-9" codeSystem="2.16.840.1.113883.6.1" displayName="Rythme cardiaque fœtal" level="0" type="L"/>
+         <concept code="101881-1" codeSystem="2.16.840.1.113883.6.1" displayName="Carte d'implant" level="0" type="L"/>
          <concept code="ATTEST-ASS-COMPL" codeSystem="1.2.250.1.213.1.1.4.12" displayName="Attestation assurance complémentaire" level="0" type="L"/>
          <concept code="ATTEST-RESID" codeSystem="1.2.250.1.213.1.1.4.12" displayName="Attestation de résidence" level="0" type="L"/>
          <concept code="ATTEST-HEBGT" codeSystem="1.2.250.1.213.1.1.4.12" displayName="Attestation d'hébergement" level="0" type="L"/>

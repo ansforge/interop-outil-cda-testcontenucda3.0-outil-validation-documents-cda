@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
-   <valueSet xmlns="" displayName="JDV_J02_XdsHealthcareFacilityTypeCode_CISIS" effectiveDate="2025-05-23T12:00:00+01:00" id="1.2.250.1.213.1.1.5.466" name="JDV_J02_XdsHealthcareFacilityTypeCode_CISIS" statusCode="final" versionLabel="2014-10-08T00:00:00+01:00" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
+   <valueSet xmlns="" displayName="JDV_J02_XdsHealthcareFacilityTypeCode_CISIS" effectiveDate="2026-02-23T12:00:00+01:00" id="1.2.250.1.213.1.1.5.466" name="JDV_J02_XdsHealthcareFacilityTypeCode_CISIS" statusCode="final" versionLabel="2014-10-08T00:00:00+01:00" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
       <sourceCodeSystem id="1.2.250.1.71.4.2.4" identifierName="TRE_R02_SecteurActivite" canonicalUri="urn:oid:1.2.250.1.71.4.2.4" canonicalUriDSTU2="urn:oid:1.2.250.1.71.4.2.4" canonicalUriSTU3="urn:oid:1.2.250.1.71.4.2.4" canonicalUriR4="urn:oid:1.2.250.1.71.4.2.4" canonicalUriR4B="urn:oid:1.2.250.1.71.4.2.4" canonicalUriR5="urn:oid:1.2.250.1.71.4.2.4"/>
       <sourceCodeSystem id="1.2.250.1.213.1.1.4.6" identifierName="TRE_A00_ProducteurDocNonPS" canonicalUri="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriDSTU2="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriSTU3="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriR4="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriR4B="urn:oid:1.2.250.1.213.1.1.4.6" canonicalUriR5="urn:oid:1.2.250.1.213.1.1.4.6"/>
       <publishingAuthority name="Agence du Numérique en Santé" inherited="project"/>
@@ -45,7 +45,7 @@
          <concept code="SA37" codeSystem="1.2.250.1.71.4.2.4" displayName="Centre de transfusion sanguine" level="0" type="L"/>
          <concept code="SA38" codeSystem="1.2.250.1.71.4.2.4" displayName="Pharmacie minière" level="0" type="L"/>
          <concept code="SA39" codeSystem="1.2.250.1.71.4.2.4" displayName="Pharmacie mutualiste" level="0" type="L"/>
-         <concept code="SA40" codeSystem="1.2.250.1.71.4.2.4" displayName="Secteur privé, praticien hospitalier temps plein" level="0" type="L"/>
+         <concept code="SA40" codeSystem="1.2.250.1.71.4.2.4" displayName="Secteur privé, praticien hospitalier" level="0" type="L"/>
          <concept code="SA41" codeSystem="1.2.250.1.71.4.2.4" displayName="Autre établissement du domaine social ou médico-social" level="0" type="L"/>
          <concept code="SA42" codeSystem="1.2.250.1.71.4.2.4" displayName="Appareillage médical" level="0" type="L"/>
          <concept code="SA43" codeSystem="1.2.250.1.71.4.2.4" displayName="Secteur non défini" level="0" type="L"/>

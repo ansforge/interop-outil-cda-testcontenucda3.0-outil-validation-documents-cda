@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <valueSets xmlns="urn:hl7-org:v3" xmlns:local="http://art-decor.org/functions" xmlns:hl7="urn:hl7-org:v3" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
-   <valueSet xmlns="" displayName="jdv-hl7-v3-xBasicConfidentialityKind-cisis" effectiveDate="2026-03-11T14:49:00+01:00" id="2.16.840.1.113883.1.11.16926" name="XBasicConfidentialityKind" statusCode="final" title="x_BasicConfidentialityKind" versionLabel="2010-01-01T00:00:00+01:00" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
+   <valueSet xmlns="" displayName="jdv-hl7-v3-xBasicConfidentialityKind-cisis" effectiveDate="2026-07-16T08:58:49+01:00" id="2.16.840.1.113883.1.11.16926" name="XBasicConfidentialityKind" statusCode="final" title="x_BasicConfidentialityKind" versionLabel="2010-01-01T00:00:00+01:00" ident="CI-SIS-JDV-" url="https://o3sis.esante.gouv.fr/decor/services/" referencedFrom="ASIP-STRUCT-MIN-">
       <sourceCodeSystem id="2.16.840.1.113883.5.25" identifierName="Confidentiality" canonicalUri="http://terminology.hl7.org/CodeSystem/v3-Confidentiality" canonicalUriDSTU2="http://hl7.org/fhir/v3/Confidentiality" canonicalUriSTU3="http://hl7.org/fhir/v3/Confidentiality" canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-Confidentiality" canonicalUriR4B="http://terminology.hl7.org/CodeSystem/v3-Confidentiality" canonicalUriR5="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
       <publishingAuthority name="Agence du Numérique en Santé" inherited="project"/>
       <conceptList>
