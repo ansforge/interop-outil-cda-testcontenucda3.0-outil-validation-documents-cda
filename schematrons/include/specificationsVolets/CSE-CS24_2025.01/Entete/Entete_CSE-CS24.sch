@@ -24,6 +24,10 @@
         <assert test="not(cda:patient/cda:guardian/cda:guardianPerson) or cda:patient/cda:guardian/cda:guardianPerson/cda:name/cda:family">
             [Entete_CSE-CS24] Le nom de famille du représentant est obligatoirement présent
         </assert>
+        <assert test="not(cda:addr[not(cda:postalCode)])">
+            [Entete_CSE-CS24] Erreur de conformité : 
+            L'élément postalCode est obligatoire pour l'adresse du patient dans le volet CSE-CS24.
+        </assert>
     </rule>
     
     <rule context="cda:ClinicalDocument">
