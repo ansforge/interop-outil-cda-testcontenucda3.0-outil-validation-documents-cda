@@ -20,6 +20,10 @@
         <assert test="cda:id">
             [Entete_CSE-CS9] L'INS de l'enfant est oblgatoirement présent dans le volet CSE-CS9
         </assert>
+        <assert test="not(cda:addr[not(cda:postalCode)])">
+            [Entete_CSE-CS9] Erreur de conformité : 
+            L'élément postalCode est obligatoire pour l'adresse du patient dans le volet CSE-CS9.
+        </assert>
     </rule>
     
     <rule context="cda:ClinicalDocument">
@@ -34,7 +38,7 @@
         <assert test="./cda:code[@code='CERT_DECL' and @codeSystem='1.2.250.1.213.1.1.4.12']"> 
             [Entete_CSE-CS9] Erreur de conformité : 
             L'élément code doit avoir @code ="CERT_DECL" et @codeSystem = "1.2.250.1.213.1.1.4.12"/>.
-        </assert>  
+        </assert> 
         <assert test="not(./cda:recordTarget/cda:patientRole/cda:addr/cda:streetAddressLine)"> 
             [Entete_CSE-CS9] Erreur de conformité :
             Seule l'utilisation des composants élémentaires de l’adresse est autorisée.
