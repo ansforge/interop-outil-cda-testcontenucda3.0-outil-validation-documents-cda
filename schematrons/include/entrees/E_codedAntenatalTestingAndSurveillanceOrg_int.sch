@@ -19,13 +19,13 @@
             [E_codedAntenatalTestingAndSurveillanceOrg_int] Erreur de Conformité PCC: 'Conformité PCC v3.0 (Erreur):' ne peut être utilisé que comme organizer.
         </assert> 
         <!-- vérifier le codage correct de l'organizer -->
-        <assert test='cda:code[@code="XX-ANTENATALTESTINGBATTERY" and 
-            @displayName="ANTENATAL TESTING AND SURVEILLANCE BATTERY" and
-            @codeSystem="2.16.840.1.113883.6.1" and
-            @codeSystemName="LOINC"]'>
+        <assert test='cda:code[@code="MED-1354" and 
+            @displayName="Batterie d&apos;examens et surveillance prénataux" and
+            @codeSystem="1.2.250.1.213.1.1.4.322" and
+            @codeSystemName="TerminologieCISIS"]'>
             [E_codedAntenatalTestingAndSurveillanceOrg_int] L'élément &lt;code&gt; de l'organizer "Antenatal Testing and Surveillance"est requis, et 
-            identifie celui-ci comme un organizer contenant des données de test et de surveillance: &lt;code code='XX-ANTENATALTESTINGBATTERY'
-            displayName='ANTENATAL TESTING AND SURVEILLANCE BATTERY' codeSystem='2.16.840.1.113883.6.1' codeSystemName="LOINC"</assert>
+            identifie celui-ci comme un organizer contenant des données de test et de surveillance: &lt;code code='MED-1354'
+            displayName='Batterie d'examens et surveillance prénataux' codeSystem='1.2.250.1.213.1.1.4.322' codeSystemName="TerminologieCISIS"</assert>
         
         <!-- Verifier que la batterie comporte au moins un élément 'component'. --> 
         
@@ -33,7 +33,7 @@
             [E_codedAntenatalTestingAndSurveillanceOrg_int] L'élément 'Coded Antenatal Testing and Surveillance Organizer' doit 
             au moins contenir une entrée 'Simple Observation' (1.3.6.1.4.1.19376.1.5.3.1.4.13)
         </assert> -->
-        
+          
 
         <assert test='cda:id'>
             [E_codedAntenatalTestingAndSurveillanceOrg_int] "Coded Antenatal Testing and Surveillance Organizer" aura nécessairement un identifiant &lt;id&gt;.

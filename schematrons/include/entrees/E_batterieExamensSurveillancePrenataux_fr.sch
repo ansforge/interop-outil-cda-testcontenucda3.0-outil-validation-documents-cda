@@ -26,13 +26,13 @@
             [E_batterieExamensSurveillancePrenataux_fr] "Coded Antenatal Testing and Surveillance Organizer" aura nécessairement un identifiant &lt;id&gt;.
         </assert>
         <!-- Test présence de l'élément 'code' -->
-        <assert test='cda:code[@code="XX-ANTENATALTESTINGBATTERY" and 
-            @displayName="ANTENATAL TESTING AND SURVEILLANCE BATTERY" and
-            @codeSystem="2.16.840.1.113883.6.1" and
-            @codeSystemName="LOINC"]'>
+        <assert test='cda:code[@code="MED-1354" and 
+            @displayName="Batterie d&apos;examens et surveillance prénataux" and
+            @codeSystem="1.2.250.1.213.1.1.4.322" and
+            @codeSystemName="TerminologieCISIS"]'>
             [E_batterieExamensSurveillancePrenataux_fr] L'élément &lt;code&gt; de l'organizer "Antenatal Testing and Surveillance"est requis, et 
-            identifie celui-ci comme un organizer contenant des données de test et de surveillance: &lt;code code='XX-ANTENATALTESTINGBATTERY'
-            displayName='ANTENATAL TESTING AND SURVEILLANCE BATTERY' codeSystem='2.16.840.1.113883.6.1' codeSystemName="LOINC"</assert>
+            identifie celui-ci comme un organizer contenant des données de test et de surveillance: &lt;code code='MED-1354'
+            displayName='Batterie d'examens et surveillance prénataux' codeSystem='1.2.250.1.213.1.1.4.322' codeSystemName="TerminologieCISIS"</assert>
         <!-- Test présence de l'élément 'statusCode' -->
         <assert test='cda:statusCode[@code="completed"]'>
             [E_batterieExamensSurveillancePrenataux_fr] La valeur de l'élément "statusCode" de "Coded Antenatal Testing and Surveillance Organizer" est fixée à "completed".
