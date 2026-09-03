@@ -5,6 +5,7 @@
    Teste la conformité de l'entrée FR-Effet-indesirable(1.2.250.1.213.1.1.3.210) en fonctionn de la conformité CI-SIS
    
    06/06/2024 : HTR : Création
+   03/09/2026 : Mise à jour des cardinalités des sous entrées Gravité et Médicament
    
 -->
 
@@ -59,8 +60,8 @@
             [E_effetIndesirable_ANS] Erreur de Conformité CI-SIS : l'entrée FR-Effet-indesirable doit contenir un élément "value"
         </assert>
         
-        <assert test="count(cda:entryRelationship[@typeCode='COMP']/cda:substanceAdministration[cda:templateId/@root='1.2.250.1.213.1.1.3.42']/cda:routeCode)=1">
-            [E_effetIndesirable_ANS] Erreur de Conformité CI-SIS : l'entrée FR-Effet-indesirable doit contenir une entrée FR-Traitement (templateId : 1.2.250.1.213.1.1.3.42) avec un élément "routeCode" [1..1.]
+        <assert test="not(cda:entryRelationship[@typeCode='COMP']/cda:substanceAdministration[cda:templateId/@root='1.2.250.1.213.1.1.3.42']) or cda:entryRelationship[@typeCode='COMP']/cda:substanceAdministration[cda:templateId/@root='1.2.250.1.213.1.1.3.42']/cda:routeCode">
+            [E_effetIndesirable_ANS] Erreur de Conformité CI-SIS : Dans l'entrée FR-Effet-indesirable, l'élément "routeCode" est obligatoire [1..1.] si une entrée FR-Traitement (templateId : 1.2.250.1.213.1.1.3.42) est présente
         </assert>
 
         <assert test="not(cda:entryRelationship[@typeCode='MFST']/cda:observation[cda:templateId/@root='1.2.250.1.213.1.1.3.37'])or cda:entryRelationship[@typeCode='MFST']/cda:observation[cda:templateId/@root='1.2.250.1.213.1.1.3.37' and cda:templateId/@root='2.16.840.1.113883.10.20.1.54']">
@@ -71,9 +72,9 @@
             [E_effetIndesirable_ANS] Erreur de Conformité CI-SIS : l'entrée FR-Effet-indesirable peut contenir une entrée FR-Imputabilite-effet-indesirable (templateId : 1.2.250.1.213.1.1.3.211) 
         </assert>
         
-        <assert test="count(cda:entryRelationship[@typeCode='SUBJ' and @inversionInd='true']/cda:observation[cda:templateId/@root='1.2.250.1.213.1.1.3.212'])=1">
+        <!--<assert test="count(cda:entryRelationship[@typeCode='SUBJ' and @inversionInd='true']/cda:observation[cda:templateId/@root='1.2.250.1.213.1.1.3.212'])=1">
             [E_effetIndesirable_ANS] Erreur de Conformité CI-SIS : l'entrée FR-Effet-indesirable doit contenir une entrée FR-Gravite-effet-indesirable (templateId : 1.2.250.1.213.1.1.3.212) 
-        </assert>
+        </assert>-->
         
         <assert test="not(cda:entryRelationship[@typeCode='SUBJ' and @inversionInd='true']/cda:observation[cda:templateId/@root='1.2.250.1.213.1.1.3.213']) or (cda:entryRelationship[@typeCode='SUBJ' and @inversionInd='true']/cda:observation[@classCode='OBS' and @moodCode='EVN' and cda:templateId/@root='1.2.250.1.213.1.1.3.213'])">
             [E_effetIndesirable_ANS] Erreur de Conformité CI-SIS : l'entrée FR-Effet-indesirable peut contenir une ou plusieurs entrée FR-Evolution-effet-indesirable (templateId : 1.2.250.1.213.1.1.3.213) 
