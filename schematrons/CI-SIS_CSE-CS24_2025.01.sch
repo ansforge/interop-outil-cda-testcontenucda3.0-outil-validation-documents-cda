@@ -146,6 +146,11 @@
                 [CI-SIS_CSE-CS24_2025.01.sch] Erreur de conformité : La section FR-Vaccinations (1.3.6.1.4.1.19376.1.5.3.1.3.23) est obligatoire.  
             </assert>
             
+            <!-- Présence obligatoire de la section FR-Traitements-administres (1.3.6.1.4.1.19376.1.5.3.1.3.21) -->
+            <assert test='cda:component/cda:section/cda:templateId[@root = "1.3.6.1.4.1.19376.1.5.3.1.3.21"]'>
+                [CI-SIS_CSE-CS24_2025.01.sch] Erreur de conformité : La section FR-Traitements-administres (1.3.6.1.4.1.19376.1.5.3.1.3.21) est obligatoire.  
+            </assert>
+            
             <!-- Présence obligatoire de la section FR-Plan-de-soins (1.3.6.1.4.1.19376.1.5.3.1.3.36) -->
             <assert test='cda:component/cda:section/cda:templateId[@root = "1.3.6.1.4.1.19376.1.5.3.1.3.36"]'>
                 [CI-SIS_CSE-CS24_2025.01.sch] Erreur de conformité : La section FR-Plan-de-soins (1.3.6.1.4.1.19376.1.5.3.1.3.36) est obligatoire.  
