@@ -6,18 +6,18 @@
              effectiveDate="2024-03-07T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.775"
              name="JdvResultatDepistageProteinurieCisis"
-             revisionDate="2026-07-16T08:58:48+01:00"
+             revisionDate="2026-09-11T14:24:50+01:00"
              title="JDV Resultat Depistage Proteinurie CISIS"
-             version="2024-03-07T00:00:00+01:00">
+             version="2026-09-11T00:00:00+01:00">
       <ConceptList>
-         <Concept code="260385009"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20240307000000"
-                  displayName="négatif(-ive)"/>
-         <Concept code="10828004"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20240307000000"
-                  displayName="positif(-ive)"/>
+         <Concept code="NEG"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  dateValid="20260911000000"
+                  displayName="Négatif"/>
+         <Concept code="POS"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  dateValid="20260911000000"
+                  displayName="Positif"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -6,14 +6,14 @@
              effectiveDate="2024-03-07T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.769"
              name="JdvResultatDepistageCetonemieCisis"
-             revisionDate="2026-07-16T08:58:48+01:00"
+             revisionDate="2026-09-11T14:24:50+01:00"
              title="JDV Resultat Depistage Cetonemie CISIS"
-             version="2024-03-07T00:00:00+01:00">
+             version="2026-09-11T00:00:00+01:00">
       <ConceptList>
-         <Concept code="17621005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20240307000000"
-                  displayName="normal"/>
+         <Concept code="N"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  dateValid="20260911000000"
+                  displayName="Normal"/>
          <Concept code="274783007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240307000000"
