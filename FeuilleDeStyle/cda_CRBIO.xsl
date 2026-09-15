@@ -30705,8 +30705,8 @@
 				<xsl:with-param name="date" select="$date"/>
 			</xsl:call-template>
 		</xsl:variable>
-		<xsl:variable name="dayNum">
-			<xsl:choose>
+		<xsl:variable name="dayNum" select="substring($date, 7, 2)"/>
+			<!--<xsl:choose>
 				<xsl:when test="substring($date, 7, 1) = '0'">
 					<xsl:value-of select="substring($date, 8, 1)"/>
 				</xsl:when>
@@ -30714,7 +30714,7 @@
 					<xsl:value-of select="substring($date, 7, 2)"/>
 				</xsl:otherwise>
 			</xsl:choose>
-		</xsl:variable>
+		</xsl:variable>-->
 
 		<xsl:if test="not($part = 'time')">
 			<xsl:choose>
@@ -30832,8 +30832,8 @@
 				<xsl:with-param name="date" select="$date"/>
 			</xsl:call-template>
 		</xsl:variable>
-		<xsl:variable name="dayNum">
-			<xsl:choose>
+		<xsl:variable name="dayNum" select="substring($date, 7, 2)"/>
+			<!--<xsl:choose>
 				<xsl:when test="substring($date, 7, 1) = '0'">
 					<xsl:value-of select="substring($date, 8, 1)"/>
 				</xsl:when>
@@ -30841,7 +30841,7 @@
 					<xsl:value-of select="substring($date, 7, 2)"/>
 				</xsl:otherwise>
 			</xsl:choose>
-		</xsl:variable>
+		</xsl:variable>-->
 
 		<xsl:if test="not($part = 'time')">
 			<xsl:choose>
@@ -30891,8 +30891,8 @@
 				<xsl:with-param name="date" select="$date"/>
 			</xsl:call-template>
 		</xsl:variable>
-		<xsl:variable name="dayNum">
-			<xsl:choose>
+		<xsl:variable name="dayNum" select="substring($date, 7, 2)"/>
+			<!--<xsl:choose>
 				<xsl:when test="substring($date, 7, 1) = '0'">
 					<xsl:value-of select="substring($date, 8, 1)"/>
 				</xsl:when>
@@ -30900,7 +30900,7 @@
 					<xsl:value-of select="substring($date, 7, 2)"/>
 				</xsl:otherwise>
 			</xsl:choose>
-		</xsl:variable>
+		</xsl:variable>-->
 		<xsl:if test="not($part = 'time')">
 			<xsl:choose>
 				<xsl:when test="$textLangPartLowerCase = 'fr'">
@@ -31017,8 +31017,8 @@
 				<xsl:with-param name="date" select="$date"/>
 			</xsl:call-template>
 		</xsl:variable>
-		<xsl:variable name="dayNum">
-			<xsl:choose>
+		<xsl:variable name="dayNum" select="substring($date, 7, 2)"/>
+			<!--<xsl:choose>
 				<xsl:when test="substring($date, 7, 1) = '0'">
 					<xsl:value-of select="substring($date, 8, 1)"/>
 				</xsl:when>
@@ -31026,7 +31026,7 @@
 					<xsl:value-of select="substring($date, 7, 2)"/>
 				</xsl:otherwise>
 			</xsl:choose>
-		</xsl:variable>
+		</xsl:variable>-->
 		<xsl:if test="not(contains($vendor, 'Saxonica'))">
 			<span style="font-weight:bold;">
 				<xsl:if test="not($part = 'time')">
@@ -31171,8 +31171,8 @@
 		<xsl:param name="date"/>
 		<xsl:variable name="yearNum" select="substring($date, 1, 4)"/>
 		<xsl:variable name="monthNum" select="substring($date, 5, 2)"/>
-		<xsl:variable name="dayNum">
-			<xsl:choose>
+		<xsl:variable name="dayNum" select="substring($date, 7, 2)"/>
+			<!--<xsl:choose>
 				<xsl:when test="substring($date, 7, 1) = &quot;0&quot;">
 					<xsl:value-of select="substring($date, 8, 1)"/>
 				</xsl:when>
@@ -31180,12 +31180,12 @@
 					<xsl:value-of select="substring($date, 7, 2)"/>
 				</xsl:otherwise>
 			</xsl:choose>
-		</xsl:variable>
+		</xsl:variable>-->
 
 		<xsl:variable name="yearNumCreate" select="substring($comparedate, 1, 4)"/>
 		<xsl:variable name="monthNumCreate" select="substring($comparedate, 5, 2)"/>
-		<xsl:variable name="dayNumCreate">
-			<xsl:choose>
+		<xsl:variable name="dayNumCreate" select="substring($comparedate, 7, 2)"/>
+			<!--<xsl:choose>
 				<xsl:when test="substring($comparedate, 7, 1) = &quot;0&quot;">
 					<xsl:value-of select="substring($comparedate, 8, 1)"/>
 				</xsl:when>
@@ -31193,7 +31193,7 @@
 					<xsl:value-of select="substring($comparedate, 7, 2)"/>
 				</xsl:otherwise>
 			</xsl:choose>
-		</xsl:variable>
+		</xsl:variable>-->
 
 		<xsl:variable name="yearDiff" select="number($yearNumCreate) - number($yearNum)"/>
 		<xsl:choose>
