@@ -48,7 +48,7 @@
         <value lang="en-us">Act</value>
         <value lang="nl-nl">wet</value>
         <value lang="de-ch">Gesetz</value>
-        <value lang="fr-fr">Acte(s)</value>
+        <value lang="fr-fr">Evènement(s) documenté(s)</value>
     </translation>
     <translation key="donneeStructure">
         <comment>Label: Actes</comment>
@@ -63,6 +63,14 @@
         <value lang="nl-nl">van </value>
         <value lang="de-ch">von </value>
         <value lang="fr-fr">du </value>
+    </translation>
+    <!--  Bloc pour la ePrescription, où on rajoute "Période de validité"  -->
+    <translation key="eP-du">
+        <comment>Label: Actes</comment>
+        <value lang="en-us">of </value>
+        <value lang="nl-nl">van </value>
+        <value lang="de-ch">von </value>
+        <value lang="fr-fr">Période de validité du </value>
     </translation>
     <translation key="au">
         <comment>Label: Actes</comment>
@@ -11241,6 +11249,13 @@
         <value lang="nl-nl">Eerste symptomen</value>
         <value lang="fr-fr">Date de début</value>
     </translation>
+    <!--  Bloc pour la ePrescription, où on rajoute "Période de validité"  -->
+    <translation key="eP-Onset">
+        <comment>E.g. When allergy or intolerance was identified</comment>
+        <value lang="en-us">Onset</value>
+        <value lang="nl-nl">Eerste symptomen</value>
+        <value lang="fr-fr">Période de validité - Date de début</value>
+    </translation>
     <translation key="Abatement">
         <comment>E.g. If/when in resolution/remission</comment>
         <value lang="en-us">Abatement</value>
@@ -11252,6 +11267,13 @@
         <value lang="en-us">Last Occurrence</value>
         <value lang="nl-nl">Meest recente voorkomen</value>
         <value lang="fr-fr">Date de fin</value>
+    </translation>
+<!--  Bloc pour la ePrescription, où on rajoute "Période de validité"  -->
+    <translation key="eP-Last Occurrence">
+        <comment>E.g. Date(/time) of last known occurrence of a reaction</comment>
+        <value lang="en-us">Last Occurrence</value>
+        <value lang="nl-nl">Meest recente voorkomen</value>
+        <value lang="fr-fr">Période de validité - Date de fin</value>
     </translation>
     <translation key="Modified Date">
         <comment>E.g. Date(/time) of last update</comment>

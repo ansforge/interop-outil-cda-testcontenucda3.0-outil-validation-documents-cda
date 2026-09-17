@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.62"
              name="JdvDeficiencePhysiqueCisis"
-             revisionDate="2026-09-11T14:24:54+01:00"
+             revisionDate="2026-09-16T09:54:49+01:00"
              title="JDV Deficience Physique CISIS"
-             version="2023-11-14T00:00:00+01:00">
+             version="2026-09-15T00:00:00+01:00">
       <ConceptList>
          <Concept code="44695005"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -38,14 +38,14 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"
                   displayName="Trouble de la déglutition"/>
-         <Concept code="MED-333"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateValid="20100101000000"
-                  displayName="Trouble de l'élimination urinaire"/>
-         <Concept code="MED-334"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateValid="20100101000000"
-                  displayName="Trouble de l'élimination fécale"/>
+         <Concept code="R39.8"
+                  codeSystem="2.16.840.1.113883.6.3"
+                  dateValid="20260915000000"
+                  displayName="Symptômes et signes relatifs à l'appareil urinaire, autres et non précisés"/>
+         <Concept code="R19.8"
+                  codeSystem="2.16.840.1.113883.6.3"
+                  dateValid="20260915000000"
+                  displayName="Autres symptômes et signes précisés relatifs à l'appareil digestif et à l'abdomen"/>
          <Concept code="MED-335"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"

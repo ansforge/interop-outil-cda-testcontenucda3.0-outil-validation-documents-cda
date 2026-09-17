@@ -8898,17 +8898,33 @@
                 <xsl:if
                     test="hl7:serviceEvent/hl7:effectiveTime/hl7:high and hl7:serviceEvent/hl7:effectiveTime/hl7:low">
                     <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                        <xsl:if test="../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI']">
                         <span style="color: black;">
                             <xsl:call-template name="getLocalizedString">
-                                <xsl:with-param name="key" select="'du'"/>
+                                <xsl:with-param name="key" select="'eP-du'"/>
                             </xsl:call-template>
                         </span>
+                        </xsl:if>
+                        <xsl:if test="not(../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI'])">
+                            <span style="color: black;">
+                                <xsl:call-template name="getLocalizedString">
+                                    <xsl:with-param name="key" select="'du'"/>
+                                </xsl:call-template>
+                            </span>
+                        </xsl:if>
                     </xsl:if>
                     <xsl:if test="(contains($vendor, 'Saxonica'))">
                         <fo:inline color="black">
-                            <xsl:call-template name="getLocalizedString">
-                                <xsl:with-param name="key" select="'du'"/>
-                            </xsl:call-template>
+                            <xsl:if test="../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI']">
+                             <xsl:call-template name="getLocalizedString">
+                                 <xsl:with-param name="key" select="'eP-du'"/>
+                             </xsl:call-template>
+                            </xsl:if>
+                            <xsl:if test="not(../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI'])">
+                                <xsl:call-template name="getLocalizedString">
+                                    <xsl:with-param name="key" select="'du'"/>
+                                </xsl:call-template>
+                            </xsl:if>
                         </fo:inline>
                     </xsl:if>
                     <xsl:variable name="low" select="hl7:serviceEvent/hl7:effectiveTime/hl7:low"/>
@@ -10683,7 +10699,8 @@
                 <br/>
                 <table width="100%" style="border-collapse: collapse; border-spacing: 0px;">
                     <tbody>
-                        <xsl:if test="hl7:documentationOf/hl7:serviceEvent[@classCode | hl7:code]">
+                        <!--<xsl:if test="hl7:documentationOf/hl7:serviceEvent[@classCode | hl7:code]">-->
+                        <xsl:if test="hl7:documentationOf/hl7:serviceEvent">
                             <tr>
                                 <td class="td_label_footer">
                                     <span style="font-weight:bold; color:black;">
@@ -10793,10 +10810,20 @@
                                         <span style="font-weight:bold; color:black;">
                                             <xsl:if
                                                 test="hl7:serviceEvent/hl7:effectiveTime/hl7:low">
-                                                <xsl:call-template name="getLocalizedString">
-                                                  <xsl:with-param name="key" select="'Onset'"/>
-                                                </xsl:call-template>
-                                                <xsl:text>: </xsl:text>
+                                                <xsl:if test="../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI']">
+                                                    
+                                                    <xsl:call-template name="getLocalizedString">
+                                                      <xsl:with-param name="key" select="'eP-Onset'"/>
+                                                    </xsl:call-template>
+                                                    <xsl:text>: </xsl:text>
+                                                </xsl:if>
+                                                <xsl:if test="not(../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI'])">
+                                                    
+                                                    <xsl:call-template name="getLocalizedString">
+                                                        <xsl:with-param name="key" select="'Onset'"/>
+                                                    </xsl:call-template>
+                                                    <xsl:text>: </xsl:text>
+                                                </xsl:if>
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight:normal;">
@@ -10813,11 +10840,21 @@
                                         <span style="font-weight:bold; color:black;">
                                             <xsl:if
                                                 test="hl7:serviceEvent/hl7:effectiveTime/hl7:high">
-                                                <xsl:call-template name="getLocalizedString">
-                                                  <xsl:with-param name="key"
-                                                  select="'Last Occurrence'"/>
-                                                </xsl:call-template>
-                                                <xsl:text>: </xsl:text>
+                                                <xsl:if test="../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI']">
+                                                    <xsl:call-template name="getLocalizedString">
+                                                      <xsl:with-param name="key"
+                                                      select="'eP-Last Occurrence'"/>
+                                                    </xsl:call-template>
+                                                    <xsl:text>: </xsl:text>
+                                                </xsl:if>
+                                                <xsl:if test="not(../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI'])">
+                                                    
+                                                    <xsl:call-template name="getLocalizedString">
+                                                        <xsl:with-param name="key"
+                                                            select="'Last Occurrence'"/>
+                                                    </xsl:call-template>
+                                                    <xsl:text>: </xsl:text>
+                                                </xsl:if>
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight:normal;">
@@ -11554,7 +11591,8 @@
                 </table>
             </xsl:if>
             <xsl:if test="(contains($vendor, 'Saxonica'))">
-                <xsl:if test="hl7:documentationOf/hl7:serviceEvent[@classCode | hl7:code]">
+                <!--<xsl:if test="hl7:documentationOf/hl7:serviceEvent[@classCode | hl7:code]">-->
+                <xsl:if test="hl7:documentationOf/hl7:serviceEvent">
                     <fo:block line-height="0.4cm">&#160;</fo:block>
                     <fo:block xsl:use-attribute-sets="myMargin" keep-together.within-page="always">
                         <fo:table xsl:use-attribute-sets="myBorder" margin-left="0.1">
@@ -11684,10 +11722,20 @@
                                                 <fo:inline xsl:use-attribute-sets="myBlock10">
                                                   <xsl:if
                                                   test="hl7:serviceEvent/hl7:effectiveTime/hl7:low">
-                                                  <xsl:call-template name="getLocalizedString">
-                                                  <xsl:with-param name="key" select="'Onset'"/>
-                                                  </xsl:call-template>
-                                                  <xsl:text>: </xsl:text>
+                                                      <xsl:if test="../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI']">
+                                                          
+                                                        <xsl:call-template name="getLocalizedString">
+                                                        <xsl:with-param name="key" select="'eP-Onset'"/>
+                                                        </xsl:call-template>
+                                                        <xsl:text>: </xsl:text>
+                                                      </xsl:if>
+                                                      <xsl:if test="not(../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI'])">
+                                                          
+                                                          <xsl:call-template name="getLocalizedString">
+                                                              <xsl:with-param name="key" select="'Onset'"/>
+                                                          </xsl:call-template>
+                                                          <xsl:text>: </xsl:text>
+                                                      </xsl:if>
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
@@ -11704,11 +11752,20 @@
                                                 <fo:inline xsl:use-attribute-sets="myBlock10">
                                                   <xsl:if
                                                   test="hl7:serviceEvent/hl7:effectiveTime/hl7:high">
-                                                  <xsl:call-template name="getLocalizedString">
-                                                  <xsl:with-param name="key"
-                                                  select="'Last Occurrence'"/>
-                                                  </xsl:call-template>
-                                                  <xsl:text>: </xsl:text>
+                                                      <xsl:if test="../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI']">
+                                                        <xsl:call-template name="getLocalizedString">
+                                                        <xsl:with-param name="key"
+                                                        select="'eP-Last Occurrence'"/>
+                                                        </xsl:call-template>
+                                                        <xsl:text>: </xsl:text>
+                                                      </xsl:if>
+                                                      <xsl:if test="not(../hl7:code[@code='55115-0' or @code='57828-6' or @code='57833-6' or @code='61357-0' or @code='75468-9' or @code='PRESC-AAT' or @code='PRESC-BIO' or @code='PRESC-INF' or @code='PRESC-KINE' or @code='PRESC-ORTHOPHO' or @code='PRESC-ORTHOPTIE' or @code='PRESC-PEDI'])">
+                                                          <xsl:call-template name="getLocalizedString">
+                                                              <xsl:with-param name="key"
+                                                                  select="'Last Occurrence'"/>
+                                                          </xsl:call-template>
+                                                          <xsl:text>: </xsl:text>
+                                                      </xsl:if>
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
