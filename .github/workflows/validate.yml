@@ -48,8 +48,9 @@ jobs:
            wget -q https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar
            mkdir package
            cd .\package
-           echo "https://github.com/ansforge/IG-document-core/raw/refs/heads/gh-pages/${{ github.event.inputs.branchIgDocumentCore }}/ig/package.tgz"
-           wget -q "https://github.com/ansforge/IG-document-core/raw/refs/heads/gh-pages/${{ github.event.inputs.branchIgDocumentCore }}/ig/package.tgz"
+
+           echo "https://github.com/ansforge/interop-IG-cda-document-core/raw/refs/heads/gh-pages/${{ github.event.inputs.branchIgDocumentCore }}/ig/package.tgz"
+           wget -q "https://github.com/ansforge/interop-IG-cda-document-core/raw/refs/heads/gh-pages/${{ github.event.inputs.branchIgDocumentCore }}/ig/package.tgz"
            cd ..
            del ../testContenuCDA/ExemplesCDA/01_Mod*.xml
            java  "-Dfile.encoding=UTF-8"  -jar validator_cli.jar D:/a/interop-outil-cda-testcontenucda3.0-outil-validation-documents-cda/interop-outil-cda-testcontenucda3.0-outil-validation-documents-cda/testContenuCDA/ExemplesCDA/  -ig .\package -profile https://interop.esante.gouv.fr/ig/document/core/StructureDefinition/fr-cda-clinical-document -output .\validation.xml  -language fr-FR  -verbose  -locale fr-FR 
