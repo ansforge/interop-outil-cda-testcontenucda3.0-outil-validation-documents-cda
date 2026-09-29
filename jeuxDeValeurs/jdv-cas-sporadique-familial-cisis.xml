@@ -6,18 +6,18 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.46"
              name="JdvCasSporadiqueFamilialCisis"
-             revisionDate="2026-09-16T09:54:50+01:00"
+             revisionDate="2026-09-28T14:55:53+01:00"
              title="JDV Cas Sporadique Familial CISIS"
-             version="2024-03-15T00:00:00+01:00">
+             version="2026-09-24T00:00:00+01:00">
       <ConceptList>
          <Concept code="75741005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"
                   displayName="sporadique"/>
-         <Concept code="255401001"
+         <Concept code="111941005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20240315000000"
-                  displayName="familial"/>
+                  dateValid="20260924000000"
+                  displayName="maladie familiale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -6,7 +6,7 @@
              effectiveDate="2026-03-31T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.842"
              name="JdvTypeEventIndesirablePrevisibleCisis"
-             revisionDate="2026-09-16T09:54:46+01:00"
+             revisionDate="2026-09-28T14:55:52+01:00"
              title="JDV Type Event Indesirable Previsible CISIS"
              version="2026-03-31T00:00:00+01:00">
       <ConceptList>
@@ -17,11 +17,11 @@
          <Concept code="609328004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20260331000000"
-                  displayName="prédisposition aux allergies"/>
+                  displayName="allergie"/>
          <Concept code="609396006"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20260331000000"
-                  displayName="terrain d'hypersensibilité non allergique"/>
+                  displayName="hypersensibilité non allergique"/>
          <Concept code="782197009"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20260331000000"

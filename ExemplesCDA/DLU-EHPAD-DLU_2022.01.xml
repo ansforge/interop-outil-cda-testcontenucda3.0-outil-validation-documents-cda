@@ -1740,10 +1740,10 @@
 									<text><reference value="#doc1"/></text>
 									<statusCode code="completed"/>
 									<effectiveTime nullFlavor="NA"/>
-									<value xsi:type="CD" code="DLU_006"
-										displayName="Attestation de la carte vitale"
-										codeSystem="1.2.250.1.213.1.1.4.322"
-										codeSystemName="TerminologieCISIS"/>
+									<value xsi:type="CD" code="ATTEST-DROITS-AM"
+										displayName="Attestation de droits à l’assurance maladie"
+										codeSystem="1.2.250.1.213.1.1.4.12"
+										codeSystemName="TRE_A05-TypeDocComplementaire"/>
 								</observation>
 							</component>
 							<!-- [1..1] Entrée ObservationMedia -->
@@ -1779,10 +1779,10 @@
 									<text><reference value="#doc2"/></text>
 									<statusCode code="completed"/>
 									<effectiveTime nullFlavor="NA"/>
-									<value xsi:type="CD" code="DLU_007"
-										displayName="Attestation de mutuelle"
-										codeSystem="1.2.250.1.213.1.1.4.322"
-										codeSystemName="TerminologieCISIS"/>
+									<value xsi:type="CD" code="ATTEST-ASS-COMPL"
+										displayName="Attestation assurance complémentaire"
+										codeSystem="1.2.250.1.213.1.1.4.12"
+										codeSystemName="TRE_A05-TypeDocComplementaire"/>
 								</observation>
 							</component>
 							<!-- [1..1] Entrée ObservationMedia -->

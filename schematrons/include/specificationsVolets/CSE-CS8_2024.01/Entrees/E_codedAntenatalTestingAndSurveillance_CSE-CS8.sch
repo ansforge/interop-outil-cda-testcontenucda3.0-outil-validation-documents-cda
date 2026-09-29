@@ -18,8 +18,8 @@
     <rule context="*[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.1.21.3.10']">
         
         <!-- Vérifier que l'entrée GEN-078 est présente -->
-        <assert test='cda:component/cda:observation/cda:code[@code = "GEN-078"]'>
-            [E_codedAntenatalTestingAndSurveillance_CSE-CS8] Erreur de conformité : L'entrée Simple observation de code GEN-078 est obligatoire pour indiquer la présence ou l'absence Dépistage de la trisomie 21. 
+        <assert test='cda:component/cda:observation/cda:code[@code = "315115008"]'>
+            [E_codedAntenatalTestingAndSurveillance_CSE-CS8] Erreur de conformité : L'entrée Simple observation de code 315115008 est obligatoire pour indiquer la présence ou l'absence Dépistage de la trisomie 21. 
         </assert>
         
         <!-- Vérifier que l'entrée ORG-079 est présente -->

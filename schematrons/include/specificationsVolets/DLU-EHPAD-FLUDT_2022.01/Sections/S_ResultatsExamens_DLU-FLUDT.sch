@@ -16,10 +16,10 @@
     
     <rule context='cda:section[cda:templateId/@root="1.3.6.1.4.1.19376.1.5.3.1.3.28"]'>
         <!-- Vérifier le code de l'entrée 'FR-Simple observation' -->
-        <assert test='./cda:entry/cda:observation[cda:templateId/@root="1.3.6.1.4.1.19376.1.5.3.1.4.13" and not(cda:code/@code="R52.9")]/cda:code/@code="DLU_002" or 
-            ./cda:entry/cda:observation[cda:templateId/@root="1.3.6.1.4.1.19376.1.5.3.1.4.13" and not(cda:code/@code="R52.9")]/cda:code/@code="DLU_003" or
-            ./cda:entry/cda:observation[cda:templateId/@root="1.3.6.1.4.1.19376.1.5.3.1.4.13" and not(cda:code/@code="R52.9")]/cda:code/@code="DLU_004"'>
-            [S_ResultatsExamens_DLU-FLUDT] Erreur de conformité : l'entrée FR-Simple observation doit avoir le code 'DLU_002' ou 'DLU_003' ou  'DLU_004'.
+        <assert test='./cda:entry/cda:observation[cda:templateId/@root="1.3.6.1.4.1.19376.1.5.3.1.4.13" and not(cda:code/@code="R52.9")]/cda:code/@code="MED-1301" or 
+            ./cda:entry/cda:observation[cda:templateId/@root="1.3.6.1.4.1.19376.1.5.3.1.4.13" and not(cda:code/@code="R52.9")]/cda:code/@code="MED-1302" or
+            ./cda:entry/cda:observation[cda:templateId/@root="1.3.6.1.4.1.19376.1.5.3.1.4.13" and not(cda:code/@code="R52.9")]/cda:code/@code="MED-1303"'>
+            [S_ResultatsExamens_DLU-FLUDT] Erreur de conformité : l'entrée FR-Simple observation doit avoir le code 'MED-1301' ou 'MED-1302' ou  'MED-1303'.
         </assert>
     </rule>
     

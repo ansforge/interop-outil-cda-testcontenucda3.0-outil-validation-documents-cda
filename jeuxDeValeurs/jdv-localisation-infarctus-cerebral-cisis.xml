@@ -6,7 +6,7 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.205"
              name="JdvLocalisationInfarctusCerebralCisis"
-             revisionDate="2026-09-16T09:54:45+01:00"
+             revisionDate="2026-09-28T14:55:52+01:00"
              title="JDV Localisation Infarctus Cerebral CISIS"
              version="2023-07-07T00:00:00+01:00">
       <ConceptList>
@@ -29,7 +29,7 @@
          <Concept code="15926001"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221207000000"
-                  displayName="tronc de l'encéphale"/>
+                  displayName="tronc cérébral"/>
          <Concept code="113305005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"

@@ -75,7 +75,7 @@
         <!-- JDV -->        
         
         <let name="JDV_NatureDiscussion-CISIS" value="'../jeuxDeValeurs/jdv-nature-discussion-cisis.xml'"/>
-        <let name="JDV_OMSEchPerf-CISIS" value="'../jeuxDeValeurs/jdv-indice-performance-ecog-cisis.xml'"/>
+        <let name="JDV_OMSEchPerf-CISIS" value="'../jeuxDeValeurs/jdv-score-performance-ecog-cisis.xml'"/>
         <let name="JDV_PhaseCancer-CISIS" value="'../jeuxDeValeurs/jdv-phase-cancer-cisis.xml'"/>
         <let name="JDV_RCP-Appareil-CISIS" value="'../jeuxDeValeurs/jdv-rcp-appareil-cisis.xml'"/>
         <let name="JDV_RCP-Organe-CISIS" value="'../jeuxDeValeurs/jdv-rcp-organe-cisis.xml'"/>

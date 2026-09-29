@@ -6,7 +6,7 @@
              effectiveDate="2023-02-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.736"
              name="JdvEtatNaissanceCisis"
-             revisionDate="2026-09-16T09:54:47+01:00"
+             revisionDate="2026-09-28T14:55:52+01:00"
              title="JDV Etat Naissance CISIS"
              version="2023-08-03T00:00:00+01:00">
       <ConceptList>
@@ -21,11 +21,11 @@
          <Concept code="391181005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230201000000"
-                  displayName="mort néonatale précoce"/>
+                  displayName="décès néonatal précoce"/>
          <Concept code="240297000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230201000000"
-                  displayName="mort infantile"/>
+                  displayName="décès infantile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
