@@ -4976,7 +4976,7 @@
                           <templateId root="1.2.250.1.213.1.1.3.122" />
                           <id root="1D34F8CC-548B-47F0-B8FF-0E8D1C93EA0E" />
                           <!-- valeur issue du jdv-mesure-lentille-delivree-cisis (1.2.250.1.213.1.1.5.656)  -->
-                          <code code="C53610" displayName="Renouvellement" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCIT" />
+                          <code code="103742009" displayName="renouvellement d'ordonnance" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT" />
                           <text><reference value="#renouvellementDelivreOd" /></text>
                           <statusCode code="completed" />
                           <effectiveTime value="20210416093000+0100" />
@@ -5004,7 +5004,7 @@
                           <templateId root="1.2.250.1.213.1.1.3.122" />
                           <id root="4F06E84D-663E-4A47-BE27-70553422F84D" />
                           <!-- valeur issue du jdv-mesure-lentille-delivree-cisis (1.2.250.1.213.1.1.5.656)  -->
-                          <code code="C53610" displayName="Renouvellement" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCIT" />
+                          <code code="103742009" displayName="renouvellement d'ordonnance" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT" />
                           <text><reference value="#renouvellementDelivreOg" /></text>
                           <statusCode code="completed" />
                           <effectiveTime value="20210416093000+0100" />
@@ -5033,7 +5033,7 @@
                           <templateId root="1.2.250.1.213.1.1.3.122" />
                           <id root="C44C855E-C8E4-4153-9330-AB62108004AF" />
                           <!-- valeur issue du jdv-mesure-lentille-delivree-cisis (1.2.250.1.213.1.1.5.656)  -->
-                          <code code="C43383" displayName="Marque et Modèle" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCIT" />
+                          <code code="67716-1" displayName="Modèle du dispositif" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
                           <text><reference value="#marqueModeleDelivreOd" /></text>
                           <statusCode code="completed" />
                           <effectiveTime value="20210416093000+0100" />
@@ -5061,7 +5061,7 @@
                           <templateId root="1.2.250.1.213.1.1.3.122" />
                           <id root="D2922D00-C611-4A10-B932-764D83A5BA72" />
                           <!-- valeur issue du jdv-mesure-lentille-delivree-cisis (1.2.250.1.213.1.1.5.656)  -->
-                          <code code="C43383" displayName="Marque et Modèle" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCIT" />
+                          <code code="67716-1" displayName="Modèle du dispositif" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
                           <text><reference value="#marqueModeleDelivreOg" /></text>
                           <statusCode code="completed" />
                           <effectiveTime value="20210416093000+0100" />
