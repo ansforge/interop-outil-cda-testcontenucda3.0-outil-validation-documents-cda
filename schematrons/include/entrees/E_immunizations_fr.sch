@@ -59,19 +59,19 @@
         </assert>
 
         <assert test="not(cda:entryRelationship) or 
-            cda:entryRelationship[@typeCode='SUBJ']/cda:act/cda:templateId[@root='1.3.6.1.4.1.19376.1.5.3.1.4.2'] or
-            cda:entryRelationship[@typeCode='SUBJ']/cda:observation/cda:templateId[@root='2.16.840.1.113883.10.20.1.46'] or 
-            cda:entryRelationship[@typeCode='CAUS']/cda:act/cda:templateId[@root='2.16.840.1.113883.10.20.1.28'] or
-            cda:entryRelationship[@typeCode='COMP']/cda:act/cda:templateId[@root='1.3.6.1.4.1.19376.1.5.3.1.4.12.1'] or
-            cda:entryRelationship[@typeCode='REFR']/cda:supply/cda:templateId[@root='1.3.6.1.4.1.19376.1.5.3.1.4.7.3']">
+            cda:entryRelationship[@typeCode='REFR']/cda:supply/cda:templateId[@root='1.2.250.1.213.1.1.3.44'] or
+            cda:entryRelationship[@typeCode='SUBJ']/cda:observation/cda:templateId[@root='1.2.250.1.213.1.1.3.82'] or
+            cda:entryRelationship[@typeCode='CAUS']/cda:observation/cda:templateId[@root='1.2.250.1.213.1.1.3.210'] or
+            cda:entryRelationship[@typeCode='SUBJ']/cda:act/cda:templateId[@root='1.2.250.1.213.1.1.3.32'] or
+            cda:entryRelationship[@typeCode='COMP']/cda:substanceAdministration/cda:templateId[@root='1.2.250.1.213.1.1.3.46']">
             [E_immunizations_fr] Erreur de conformité CI-SIS : 
             Dans une entrée 'Immunization', les éléments 'entryRelationship' ne sont pas obligatoires.
             S'ils sont présents, ils doivent respecter les exigences suivantes :
-            - Réaction observée ('entryRelationship' avec typeCode='CAUS') : doit comporter une entrée de type 'observation' avec un OID="2.16.840.1.113883.10.20.1.28".
-            - Commentaire ('entryRelationship' avec typeCode='SUBJ') : doit comporter une entrée de type 'act' avec un OID="1.3.6.1.4.1.19376.1.5.3.1.4.2".
-            - Rang de la vaccination ('entryRelationship' avec typeCode='SUBJ') : doit comporter une entrée de type 'observation' avec un OID="2.16.840.1.113883.10.20.1.46".
-            - Lien avec la prescription ('entryRelationship' avec typeCode 'REFR') : doit comporter une entrée de type 'supply' avec un OID="1.3.6.1.4.1.19376.1.5.3.1.4.7.3".
-            - Dose d’antigène reçue ('entryRelationship' avec typeCode 'COMP') : doit comporter une entrée de type 'substanceAdministration' avec un OID="1.3.6.1.4.1.19376.1.5.3.1.4.12.1".
+            - Lien avec la prescription ('entryRelationship' avec typeCode 'REFR') : doit comporter une entrée de type 'supply' avec un OID="1.2.250.1.213.1.1.3.44".
+            - Rang de la vaccination ('entryRelationship' avec typeCode='SUBJ') : doit comporter une entrée de type 'observation' avec un OID="1.2.250.1.213.1.1.3.82".
+            - Réaction observée ('entryRelationship' avec typeCode='CAUS') : doit comporter une entrée de type 'observation' avec un OID="1.2.250.1.213.1.1.3.210".
+            - Commentaire ('entryRelationship' avec typeCode='SUBJ') : doit comporter une entrée de type 'act' avec un OID="1.2.250.1.213.1.1.3.32".
+            - Dose d’antigène reçue ('entryRelationship' avec typeCode 'COMP') : doit comporter une entrée de type 'substanceAdministration' avec un OID="1.2.250.1.213.1.1.3.46".
         </assert>
         
         <assert test="count(cda:entryRelationship[@typeCode='REFR']/cda:supply/cda:templateId[@root='1.3.6.1.4.1.19376.1.5.3.1.4.7.3'])&lt;2">
