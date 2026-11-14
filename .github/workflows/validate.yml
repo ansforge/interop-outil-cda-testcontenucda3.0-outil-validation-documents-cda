@@ -51,10 +51,11 @@ jobs:
            wget -q $url -O .\package\package.tgz
            if (-not (Test-Path .\package\package.tgz) -or (Get-Item .\package\package.tgz).Length -lt 1000) { throw "package.tgz absent ou vide : vérifier la branche '${{ github.event.inputs.branchIgDocumentCore }}'" }
            del ../testContenuCDA/ExemplesCDA/01_Mod*.xml
-           java "-Dfile.encoding=UTF-8" -jar validator_cli.jar ../testContenuCDA/ExemplesCDA/ `
-             -ig .\package\package.tgz `
-             -profile https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-clinical-document `
-             -output .\validation.xml -language fr-FR -locale fr-FR -verbose   
+            $exemples = (Resolve-Path ..\testContenuCDA\ExemplesCDA).Path
+            java "-Dfile.encoding=UTF-8" -jar validator_cli.jar $exemples `
+              -ig .\package\package.tgz `
+              -profile https://interop.esante.gouv.fr/ig/cda/document-core/StructureDefinition/fr-cda-clinical-document `
+              -output .\validation.xml -language fr-FR -locale fr-FR -verbose
       
 
       
