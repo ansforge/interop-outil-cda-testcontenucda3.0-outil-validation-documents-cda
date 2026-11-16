@@ -9,6 +9,7 @@
     25/10/2017 : Renommage du schématron en S_patientEducationAndConsents_OBP.sch
     25/01/2022 : Remplacement du code XX-MCH184 [TA_CS] par le code MED-164 [TA_ASIP]
     24/10/2022 : Version 2022.01
+    16/11/2026 : Suppression du test de présence de l'entrée "Numéro de la grossesse antérieure"
 -->
 
 <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="S_pregnancyHistoryOrganizer_OBP-SAP">
@@ -18,10 +19,10 @@
         <!--  Vérification de la présence des entrées obligatoires        -->
         
         <!-- Pregnancy History Organizer + Pregnancy observation -->
-        <assert test="cda:component/cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13.5']/cda:code[@code='63962-5']
+        <!--<assert test="cda:component/cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13.5']/cda:code[@code='63962-5']
             or cda:component/cda:organizer/cda:templateId[@root='1.3.6.1.4.1.19376.1.5.3.1.4.13.5.2']">
             [S_pregnancyHistoryOrganizer_OBP-SAP] : Un organizer FR-Historique-de-la-grossesse doit contenir une entrée "Numéro de la grossesse antérieure" (63962-5)
-        </assert>
+        </assert>-->
         <assert test="cda:component/cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13.5']/cda:code/@code='63893-2'
             or cda:component/cda:organizer/cda:templateId[@root='1.3.6.1.4.1.19376.1.5.3.1.4.13.5.2']">
             [S_pregnancyHistoryOrganizer_OBP-SAP] : Un organizer FR-Historique-de-la-grossesse doit contenir une entrée "Issue de la grossesse" (63893-2)
