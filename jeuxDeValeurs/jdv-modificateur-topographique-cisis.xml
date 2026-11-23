@@ -6,9 +6,9 @@
              effectiveDate="2022-11-14T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.688"
              name="JdvModificateurTopographiqueCisis"
-             revisionDate="2026-09-28T14:55:52+01:00"
+             revisionDate="2026-11-20T11:43:58+01:00"
              title="JDV Modificateur Topographique CISIS"
-             version="2026-06-09T00:00:00+01:00">
+             version="2026-10-20T00:00:00+01:00">
       <ConceptList>
          <Concept code="24028007"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -226,6 +226,34 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20260609000000"
                   displayName="milieu"/>
+         <Concept code="255554000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20261020000000"
+                  displayName="dorsal(e)"/>
+         <Concept code="351726001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20261020000000"
+                  displayName="sous"/>
+         <Concept code="352730000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20261020000000"
+                  displayName="sus-"/>
+         <Concept code="255481003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20261020000000"
+                  displayName="quadrant supérieur gauche"/>
+         <Concept code="255497008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20261020000000"
+                  displayName="quadrant supérieur droit"/>
+         <Concept code="255480002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20261020000000"
+                  displayName="quadrant inférieur gauche"/>
+         <Concept code="255495000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20261020000000"
+                  displayName="quadrant inférieur droit"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

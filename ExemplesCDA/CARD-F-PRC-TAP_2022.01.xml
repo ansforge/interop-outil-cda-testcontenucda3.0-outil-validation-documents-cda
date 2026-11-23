@@ -1372,7 +1372,7 @@
       <component>
         <section>
           <!-- Conformité CCD Medical Equipment -->
-          <templateId root="2.16.840.1.11383.10.20.1.7" />
+          <templateId root="2.16.840.1.113883.10.20.1.7" />
           <!-- Conformité IHE PCC Medical Devices -->
           <templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.5.3.5" />
           <!-- Conformité CI-SIS -->
